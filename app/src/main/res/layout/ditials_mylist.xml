@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="13dp"
+    android:id="@+id/relativeLayout1"
+    android:paddingBottom="13dp">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:src="@drawable/gym_header_image3"
+        android:layout_marginLeft="7dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/eaual_sign"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABS BEGINNER"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/text_ditals_list"
+        android:layout_toRightOf="@+id/eaual_sign"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x20"
+        android:id="@+id/pixle_number"
+        android:textSize="10dp"
+        android:layout_below="@+id/text_ditals_list"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/eaual_sign"
+        android:textColor="#131313" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp"
+        android:src="@drawable/gym_header_image3"
+        android:layout_alignParentRight="true"
+        android:id="@+id/animate_image"/>
+
+</RelativeLayout>

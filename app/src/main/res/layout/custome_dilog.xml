@@ -1,0 +1,3223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:paddingBottom="20dp"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bigreletiv1">
+
+        // 1 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relativ1"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1.0"
+            android:id="@+id/linear"
+            android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:src="@drawable/gym_header_image"
+        android:layout_weight="0.9"
+        android:id="@+id/dilog_excersize_image"/>
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/bg"
+        android:layout_alignParentRight="true"
+        android:id="@+id/dilog_video_btn"/>
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOUNTAIN CLIMBER"
+        android:layout_below="@+id/linear"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/dilog_title"
+        android:textColor="@android:color/black"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/dilog_title"
+        android:id="@+id/content_scrolview"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ditail_content"
+            android:paddingLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:paddingRight="8dp"
+            android:text="jkjdsfjdsklfjsdkfjdskfjdskfjdkfjdkfjdkfjdkfjdkfjkfjdkjdklfjdkfjsdklfjdklfjdkjdkjkljskjk"/>
+            </ScrollView>
+        </RelativeLayout>
+
+    // 2 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ2"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear1"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:src="@drawable/bg"
+                android:id="@+id/dilog_excersize_image2"/>
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bg"
+                android:layout_alignParentRight="true"
+                android:id="@+id/dilog_video_btn2"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="China"
+                android:layout_below="@+id/linear1"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title2"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title2"
+                android:id="@+id/content_scrolview2"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ditail_content2"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    // 3 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv3">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ3"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image3"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn3"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="australia"
+                android:layout_below="@+id/linear2"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title3"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title3"
+                android:id="@+id/content_scrolview3"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ditail_content3"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    // 4 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv4">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ4"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear3"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image4"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn4"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Portugle"
+                android:layout_below="@+id/linear3"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title4"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title4"
+                android:id="@+id/content_scrolview4"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ditail_content4"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    // 5 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:id="@+id/bigreletiv5">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ5"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear4"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image5"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn5"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="America"
+                android:layout_below="@+id/linear4"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title5"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title5"
+                android:id="@+id/content_scrolview5"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ditail_content5"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    // 6 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv6">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ6"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear5"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image6"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn6"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear5"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title6"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title6"
+                android:id="@+id/content_scrolview6"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content6"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+    // 7 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv7">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ7"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear7"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image7"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn7"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear7"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title7"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title7"
+                android:id="@+id/content_scrolview7"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content7"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+    // 8 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv8">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ8"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear8"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image8"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn8"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear8"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title8"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title8"
+                android:id="@+id/content_scrolview8"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content8"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    // 9 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv9">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ9"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear9"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image9"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn9"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear9"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title9"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title9"
+                android:id="@+id/content_scrolview9"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content9"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    // 10 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv10">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ10"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear10"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image10"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn10"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear10"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title10"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title10"
+                android:id="@+id/content_scrolview10"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content10"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    // 11 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv11">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ11"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear11"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image11"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn11"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear11"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title11"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title11"
+                android:id="@+id/content_scrolview11"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content11"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+    // 12 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv12">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ12"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear12"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image12"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn12"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear12"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title12"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title12"
+                android:id="@+id/content_scrolview12"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content12"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    // 13 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv13">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ13"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear13"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image13"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn13"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear13"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title13"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title13"
+                android:id="@+id/content_scrolview13"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content13"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    // 14 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv14">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ14"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear14"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image14"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn14"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear14"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title14"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title14"
+                android:id="@+id/content_scrolview14"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content14"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+    // 15 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv15">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ15"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear15"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image15"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn15"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear15"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title15"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title15"
+                android:id="@+id/content_scrolview15"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content15"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+    // 16 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv16">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ16"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear16"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image16"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn16"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear16"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title16"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title16"
+                android:id="@+id/content_scrolview16"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content16"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    // 17 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv17">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ17"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear17"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image17"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn17"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear17"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title17"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title17"
+                android:id="@+id/content_scrolview17"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content17"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+
+    // 18 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv18">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ18"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear18"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image18"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn18"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear18"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title18"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title18"
+                android:id="@+id/content_scrolview18"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content18"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+
+    // 19 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv19">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ19"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear19"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image19"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn19"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear19"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title19"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title19"
+                android:id="@+id/content_scrolview20"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content19"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+
+    // 20 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv20">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ20"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear20"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image20"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn20"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear20"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title20"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title20"
+                android:id="@+id/content_scrolview20"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content20"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+    // 21 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv21">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ21"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear21"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image21"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn21"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear21"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title21"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title21"
+                android:id="@+id/content_scrolview21"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content21"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    // 22 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv22">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ22"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear22"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image22"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn22"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear22"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title22"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title22"
+                android:id="@+id/content_scrolview19"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content22"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    // 23 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv23">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ23"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear23"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image23"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn23"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear23"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title23"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title23"
+                android:id="@+id/content_scrolview23"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content23"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    // 24 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv24">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ24"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear24"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image24"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn24"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear24"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title24"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title24"
+                android:id="@+id/content_scrolview24"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content24"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    // 25 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv25">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ25"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear25"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image25"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn25"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear25"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title25"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title25"
+                android:id="@+id/content_scrolview25"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content25"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+    // 26 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv26">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ26"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear26"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image26"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn26"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear26"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title26"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title26"
+                android:id="@+id/content_scrolview26"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content26"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    // 27 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv27">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ27"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear27"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image27"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn27"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear27"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title27"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title27"
+                android:id="@+id/content_scrolview27"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content27"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    // 28 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv28">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ28"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear28"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image28"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn28"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear28"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title28"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title28"
+                android:id="@+id/content_scrolview28"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content28"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    // 29 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv29">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ29"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear29"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image29"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn29"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear29"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title29"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title29"
+                android:id="@+id/content_scrolview29"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content29"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+    // 30 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv30">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ30"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear30"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image30"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn30"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear30"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title30"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title30"
+                android:id="@+id/content_scrolview30"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content30"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    // 31 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv31">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ31"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear31"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image31"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn31"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear31"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title31"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title31"
+                android:id="@+id/content_scrolview31"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content31"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    // 32 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv32">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ32"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear32"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image32"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn32"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear32"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title32"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title32"
+                android:id="@+id/content_scrolview32"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content32"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    // 33 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv33">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ33"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear33"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image33"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn33"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear33"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title33"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title33"
+                android:id="@+id/content_scrolview33"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content33"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    // 34 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv34">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ34"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear34"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image34"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn34"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear34"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title34"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title34"
+                android:id="@+id/content_scrolview34"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content34"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    // 35 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv35">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ35"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear35"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image35"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn35"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear35"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title35"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title35"
+                android:id="@+id/content_scrolview35"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content35"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    // 36 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv36">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ36"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear36"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image36"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn36"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear36"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title36"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title36"
+                android:id="@+id/content_scrolview36"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content36"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+    // 37 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv37">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ37"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear37"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image37"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn37"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear37"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title37"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title37"
+                android:id="@+id/content_scrolview37"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content37"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    // 38 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv38">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ38"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear38"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image38"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn38"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear38"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title38"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title38"
+                android:id="@+id/content_scrolview38"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content38"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    // 39 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv39">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ39"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear39"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image39"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn39"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear39"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title39"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title39"
+                android:id="@+id/content_scrolview39"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content39"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    // 40 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv40">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ40"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear40"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image40"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn40"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear40"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title40"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title40"
+                android:id="@+id/content_scrolview40"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content40"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    // 41 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv41">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ41"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear41"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image41"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn41"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear41"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title41"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title41"
+                android:id="@+id/content_scrolview41"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content41"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    // 42 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv42">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ42"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear42"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image42"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn42"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear42"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title42"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/dilog_title42"
+                android:id="@+id/content_scrolview42"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content42"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    // 43 RELEATIVE LAYOUT
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/bigreletiv43">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relativ43"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:id="@+id/linear43"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/bg"
+                    android:id="@+id/dilog_excersize_image43"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bg"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/dilog_video_btn43"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NewZealand"
+                android:layout_below="@+id/linear43"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/dilog_title43"
+                android:textColor="@android:color/black"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+
+
+                android:layout_below="@+id/dilog_title43"
+                android:id="@+id/content_scrolview43"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/ditail_content43"
+                    android:text="Start in the push-up position. Bend your right knee towards
+               your chest and keep your left leg straight, then quickly switch from one leg to the other."/>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/buttons_contener"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dilog_next_previou_bg"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/bigreletiv1">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_previous"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/dilog_prevouse_btn"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/10"
+            android:textSize="20dp"
+            android:id="@+id/imcrement_number"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"/>
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_next"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/dilog_next_btn"/>
+
+    </RelativeLayout>
+</RelativeLayout>

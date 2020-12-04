@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gym_splesh"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.Splesh_Screen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/simpleProgressBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:layout_marginTop="300dp"
+            android:progress="10"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:padding="20dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:indeterminate="true"/><!--true value for indeterminate-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/simpleProgressBar"
+            android:text="GYM HOME WORKOUT"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:id="@+id/workout"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/workout"
+            android:text="WITHOUT EQUIPMENT"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:gravity="center_horizontal" />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
