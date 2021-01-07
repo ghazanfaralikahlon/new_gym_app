@@ -4037,8 +4037,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                     if (count[0]==1){
                         textView.setText("SIDE HOP");
-                        content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                "and keep your left leg straight, then quickly switch from one leg to the other.");
+                        content.setText("");
                         dilogvideo.setImageResource(R.drawable.play);
                         dilogvideo.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -4046,7 +4045,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                        dilogexcersize.setImageResource(R.drawable.side_hop);
                         relativeLayout.setVisibility(View.VISIBLE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4080,7 +4079,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                        dilogexcersize2.setImageResource(R.drawable.squats);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4114,7 +4113,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                        dilogexcersize3.setImageResource(R.drawable.side_lying_leg_lift_left);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.VISIBLE);
@@ -4148,7 +4147,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                        dilogexcersize4.setImageResource(R.drawable.side_lying_leg_lift_right);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -4182,7 +4181,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                        dilogexcersize5.setImageResource(R.drawable.side_lying_leg_lift_left);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -4216,7 +4215,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize6.setImageResource(R.drawable.side_lying_leg_lift_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4249,7 +4248,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize7.setImageResource(R.drawable.backward_lunge);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4282,7 +4281,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize8.setImageResource(R.drawable.backward_lunge);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4316,7 +4315,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize9.setImageResource(R.drawable.donkey_kicks_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4351,7 +4350,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize10.setImageResource(R.drawable.donkey_kicks_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4387,7 +4386,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize11.setImageResource(R.drawable.donkey_kicks_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4423,7 +4422,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize12.setImageResource(R.drawable.donkey_kicks_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4459,7 +4458,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize13.setImageResource(R.drawable.left_quad_stretch_with_wall);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4495,7 +4494,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize14.setImageResource(R.drawable.right_quad_stretch_with_wall);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4531,7 +4530,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize15.setImageResource(R.drawable.knee_to_chest_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4567,7 +4566,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                        dilogexcersize16.setImageResource(R.drawable.knee_to_chest_stretch_right);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -4604,7 +4603,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize17.setImageResource(R.drawable.wall_calf_raises);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4640,7 +4639,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize18.setImageResource(R.drawable.sumo_squat_calf_raises_with_wall);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4676,7 +4675,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize19.setImageResource(R.drawable.wall_calf_raises);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4713,7 +4712,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize20.setImageResource(R.drawable.sumo_squat_calf_raises_with_wall);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4749,7 +4748,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize21.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize21.setImageResource(R.drawable.calf_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4785,7 +4784,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize22.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize22.setImageResource(R.drawable.calf_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -4830,7 +4829,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.side_hop);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -4864,7 +4863,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.squats);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -4898,7 +4897,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.side_lying_leg_lift_left);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -4932,7 +4931,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.side_lying_leg_lift_right);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -4966,7 +4965,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.side_lying_leg_lift_left);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -5000,7 +4999,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.side_lying_leg_lift_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5033,7 +5032,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.backward_lunge);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5066,7 +5065,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.backward_lunge);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5100,7 +5099,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.donkey_kicks_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5135,7 +5134,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.donkey_kicks_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5171,7 +5170,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.donkey_kicks_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5207,7 +5206,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.donkey_kicks_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5243,7 +5242,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.left_quad_stretch_with_wall);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5279,7 +5278,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.right_quad_stretch_with_wall);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5315,7 +5314,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.knee_to_chest_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5351,7 +5350,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.knee_to_chest_stretch_right);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -5388,7 +5387,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.wall_calf_raises);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5424,7 +5423,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize18.setImageResource(R.drawable.sumo_squat_calf_raises_with_wall);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5460,7 +5459,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize19.setImageResource(R.drawable.wall_calf_raises);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5497,7 +5496,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize20.setImageResource(R.drawable.sumo_squat_calf_raises_with_wall);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5533,7 +5532,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize21.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize21.setImageResource(R.drawable.calf_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5569,7 +5568,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize22.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize22.setImageResource(R.drawable.calf_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5629,7 +5628,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.side_hop);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5663,7 +5662,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.squats);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5697,7 +5696,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.side_lying_leg_lift_left);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -5731,7 +5730,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.side_lying_leg_lift_right);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -5765,7 +5764,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.side_lying_leg_lift_left);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -5799,7 +5798,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.side_lying_leg_lift_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5832,7 +5831,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.backward_lunge);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5865,7 +5864,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.backward_lunge);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5899,7 +5898,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.donkey_kicks_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5934,7 +5933,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.donkey_kicks_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -5970,7 +5969,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.donkey_kicks_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -6006,7 +6005,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.donkey_kicks_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -6042,7 +6041,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.left_quad_stretch_with_wall);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -6078,7 +6077,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.right_quad_stretch_with_wall);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -6114,7 +6113,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.knee_to_chest_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -6150,7 +6149,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.knee_to_chest_stretch_right);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -6187,7 +6186,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.wall_calf_raises);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -6223,7 +6222,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize18.setImageResource(R.drawable.sumo_squat_calf_raises_with_wall);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -6259,7 +6258,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize19.setImageResource(R.drawable.wall_calf_raises);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -6296,7 +6295,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize20.setImageResource(R.drawable.sumo_squat_calf_raises_with_wall);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -6332,7 +6331,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize21.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize21.setImageResource(R.drawable.calf_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -6398,23 +6397,23 @@ public class DitalsActivity extends AppCompatActivity {
             //.makeText(this, "SHOULDER BEGINNER", //.LENGTH_SHORT).show();
 
             final MyListDataDitails[] myListData = new MyListDataDitails[] {
-                    new MyListDataDitails("JUMPIING JACKS","x30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("ARM RAISES","x16",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("RHOMBOID PULLS","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE ARM RAISES","x16",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("KNEE PUSH-UPS","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE-LYING FLOOR STRETCH LEFT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE-LYING FLOOR STRETCH RIGHT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("ARM SCISSORS","x30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("RHOMBOID PULLS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE ARM RAISES","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("KNEE PUSH-UPS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CAT COW POSE","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PRONE TRICEPS PUSH UPS","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("RECLINED RHOMBOID SQUEEZES","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PRONE TRICEPS PUSH UPS","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("RECLINED RHOMBOID SQUEEZES","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CHILD'S POSE","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
+                    new MyListDataDitails("JUMPIING JACKS","x30",R.drawable.jumping_jacks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ARM RAISES","x16",R.drawable.arm_raises,R.drawable.gym_header_image2),
+                    new MyListDataDitails("RHOMBOID PULLS","x14",R.drawable.rhomboid_pulls,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE ARM RAISES","x16",R.drawable.side_arm_raises,R.drawable.gym_header_image2),
+                    new MyListDataDitails("KNEE PUSH-UPS","x14",R.drawable.knee_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE-LYING FLOOR STRETCH LEFT","00:30",R.drawable.side_lying_floor_stretch_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE-LYING FLOOR STRETCH RIGHT","00:30",R.drawable.side_lying_floor_stretch_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ARM SCISSORS","x30",R.drawable.arm_scissors,R.drawable.gym_header_image2),
+                    new MyListDataDitails("RHOMBOID PULLS","x12",R.drawable.rhomboid_pulls,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE ARM RAISES","x14",R.drawable.side_arm_raises,R.drawable.gym_header_image2),
+                    new MyListDataDitails("KNEE PUSH-UPS","x12",R.drawable.knee_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CAT COW POSE","00:30",R.drawable.cat_cow_pose,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PRONE TRICEPS PUSH UPS","x14",R.drawable.prone_triceps_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("RECLINED RHOMBOID SQUEEZES","x12",R.drawable.reclined_rhomboid_squeezes,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PRONE TRICEPS PUSH UPS","x14",R.drawable.prone_triceps_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("RECLINED RHOMBOID SQUEEZES","x12",R.drawable.reclined_rhomboid_squeezes,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CHILD'S POSE","00:30",R.drawable.childs_pose,R.drawable.gym_header_image2),
 
             };
 
@@ -6576,8 +6575,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                     if (count[0]==1){
                         textView.setText("JUMPIING JACKS");
-                        content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                "and keep your left leg straight, then quickly switch from one leg to the other.");
+                        content.setText("");
                         dilogvideo.setImageResource(R.drawable.play);
                         dilogvideo.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -6585,7 +6583,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                        dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                         relativeLayout.setVisibility(View.VISIBLE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -6614,7 +6612,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                        dilogexcersize2.setImageResource(R.drawable.arm_raises);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -6643,7 +6641,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                        dilogexcersize3.setImageResource(R.drawable.rhomboid_pulls);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.VISIBLE);
@@ -6672,7 +6670,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                        dilogexcersize4.setImageResource(R.drawable.side_arm_raises);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -6701,7 +6699,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                        dilogexcersize5.setImageResource(R.drawable.knee_pushups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -6730,7 +6728,8 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize6.setImageResource(R.drawable.side_lying_floor_stretch_left);
+                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -6758,7 +6757,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize7.setImageResource(R.drawable.side_lying_floor_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -6786,7 +6785,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize8.setImageResource(R.drawable.arm_scissors);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -6815,7 +6814,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize9.setImageResource(R.drawable.rhomboid_pulls);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -6845,7 +6844,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize10.setImageResource(R.drawable.side_arm_raises);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -6876,7 +6875,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize11.setImageResource(R.drawable.knee_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -6907,7 +6906,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize12.setImageResource(R.drawable.cat_cow_pose);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -6938,7 +6937,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize13.setImageResource(R.drawable.prone_triceps_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -6969,7 +6968,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize14.setImageResource(R.drawable.reclined_rhomboid_squeezes);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -7000,7 +6999,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize15.setImageResource(R.drawable.prone_triceps_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -7031,7 +7030,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                        dilogexcersize16.setImageResource(R.drawable.reclined_rhomboid_squeezes);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -7063,7 +7062,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize17.setImageResource(R.drawable.childs_pose);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -7096,8 +7095,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==0){
                                 textView.setText("JUMPIING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -7105,7 +7103,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7134,7 +7132,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.arm_raises);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7163,7 +7161,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.rhomboid_pulls);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -7192,7 +7190,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.side_arm_raises);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -7221,7 +7219,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.knee_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -7250,7 +7248,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.side_lying_floor_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7278,7 +7276,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.side_lying_floor_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7306,7 +7304,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.arm_scissors);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7335,7 +7333,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.rhomboid_pulls);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7365,7 +7363,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.side_arm_raises);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7396,7 +7394,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.knee_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7427,7 +7425,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.cat_cow_pose);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7458,7 +7456,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.prone_triceps_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7489,7 +7487,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.reclined_rhomboid_squeezes);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7520,7 +7518,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.prone_triceps_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7551,7 +7549,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.reclined_rhomboid_squeezes);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -7583,7 +7581,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.childs_pose);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7629,8 +7627,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==2){
                                 textView.setText("JUMPIING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -7638,7 +7635,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7667,7 +7664,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.arm_raises);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7696,7 +7693,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.rhomboid_pulls);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -7725,7 +7722,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.side_arm_raises);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -7754,7 +7751,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.knee_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -7783,7 +7780,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.side_lying_floor_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7811,7 +7808,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.side_lying_floor_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7839,7 +7836,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.arm_scissors);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7868,7 +7865,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.rhomboid_pulls);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7898,7 +7895,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.side_arm_raises);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7929,7 +7926,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.knee_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7960,7 +7957,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.cat_cow_pose);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -7991,7 +7988,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.prone_triceps_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -8022,7 +8019,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.reclined_rhomboid_squeezes);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -8053,7 +8050,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.prone_triceps_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -8084,7 +8081,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.reclined_rhomboid_squeezes);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -8142,27 +8139,27 @@ public class DitalsActivity extends AppCompatActivity {
             //.makeText(this, "ABS INTERMEDIATE", //.LENGTH_SHORT).show();
 
             final MyListDataDitails[] myListData = new MyListDataDitails[] {
-                    new MyListDataDitails("JUMPING JACKS","x30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("HEEL TOUCH","x26",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("MOUNTAIN CLIMBER","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CROSSOVER CRUNCH","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE BRIDGES LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE BRIDGES RIGHT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("BUTT BRIDGE","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("BICYCLE CRUNCHES","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("V-UP","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("HEEL TOUCH","x26",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("ABDOMINAL CRUNCHES","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PLANK","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CROSSOVER CRUNCHES","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("LEG RAISES","x16",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("BICYCLE CRUNCHES","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PUSH-UPS & ROTATION","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE PLANK RIGHT","00:20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE PLANK LEFT","00:20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("COBRA STRETCH","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SPINE LUMBAR TWIST STRETCH LEFT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SPIN LUMBAR TWIST STRETCH RIGHT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
+                    new MyListDataDitails("JUMPING JACKS","x30",R.drawable.jumping_jacks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("HEEL TOUCH","x26",R.drawable.heel_touch,R.drawable.gym_header_image2),
+                    new MyListDataDitails("MOUNTAIN CLIMBER","x20",R.drawable.mountain_climber,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CROSSOVER CRUNCH","x20",R.drawable.crossover_crunch,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE BRIDGES LEFT","x12",R.drawable.side_bridges_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE BRIDGES RIGHT","x12",R.drawable.side_bridges_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("BUTT BRIDGE","x20",R.drawable.butt_bridge,R.drawable.gym_header_image2),
+                    new MyListDataDitails("BICYCLE CRUNCHES","x20",R.drawable.bicycle_crunches,R.drawable.gym_header_image2),
+                    new MyListDataDitails("V-UP","x20",R.drawable.v_v_up,R.drawable.gym_header_image2),
+                    new MyListDataDitails("HEEL TOUCH","x26",R.drawable.heel_touch,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ABDOMINAL CRUNCHES","x20",R.drawable.abdominal_crunches,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PLANK","00:30",R.drawable.plank,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CROSSOVER CRUNCHES","x20",R.drawable.crossover_crunch,R.drawable.gym_header_image2),
+                    new MyListDataDitails("LEG RAISES","x16",R.drawable.leg_raises,R.drawable.gym_header_image2),
+                    new MyListDataDitails("BICYCLE CRUNCHES","x20",R.drawable.bicycle_crunches,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PUSH-UPS & ROTATION","x20",R.drawable.push_ups_rotation,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE PLANK RIGHT","00:20",R.drawable.side_plank_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE PLANK LEFT","00:20",R.drawable.side_plank_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("COBRA STRETCH","00:30",R.drawable.cobra_stretch,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SPINE LUMBAR TWIST STRETCH LEFT","00:30",R.drawable.spine_lumbar_twist_stretch_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SPIN LUMBAR TWIST STRETCH RIGHT","00:30",R.drawable.spine_lumbar_twist_stretch_right,R.drawable.gym_header_image2),
 
             };
 
@@ -8352,8 +8349,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                     if (count[0]==1){
                         textView.setText("JUMPING JACKS");
-                        content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                "and keep your left leg straight, then quickly switch from one leg to the other.");
+                        content.setText("");
                         dilogvideo.setImageResource(R.drawable.play);
                         dilogvideo.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -8361,7 +8357,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                        dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                         relativeLayout.setVisibility(View.VISIBLE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8394,7 +8390,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                        dilogexcersize2.setImageResource(R.drawable.heel_touch);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8427,7 +8423,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                        dilogexcersize3.setImageResource(R.drawable.mountain_climber);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.VISIBLE);
@@ -8460,7 +8456,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                        dilogexcersize4.setImageResource(R.drawable.crossover_crunch);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -8493,7 +8489,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                        dilogexcersize5.setImageResource(R.drawable.side_bridges_left);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -8526,7 +8522,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize6.setImageResource(R.drawable.side_bridges_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8558,7 +8554,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize7.setImageResource(R.drawable.butt_bridge);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8590,7 +8586,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize8.setImageResource(R.drawable.bicycle_crunches);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8623,7 +8619,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize9.setImageResource(R.drawable.v_v_up);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8657,7 +8653,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize10.setImageResource(R.drawable.heel_touch);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8692,7 +8688,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize11.setImageResource(R.drawable.abdominal_crunches);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8727,7 +8723,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize12.setImageResource(R.drawable.plank);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8762,7 +8758,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize13.setImageResource(R.drawable.crossover_crunch);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8797,7 +8793,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize14.setImageResource(R.drawable.leg_raises);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8832,7 +8828,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize15.setImageResource(R.drawable.bicycle_crunches);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8867,7 +8863,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                        dilogexcersize16.setImageResource(R.drawable.push_ups_rotation);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -8903,7 +8899,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize17.setImageResource(R.drawable.side_plank_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8938,7 +8934,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize18.setImageResource(R.drawable.side_plank_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -8973,7 +8969,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize19.setImageResource(R.drawable.cobra_stretch);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -9009,7 +9005,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize20.setImageResource(R.drawable.spine_lumbar_twist_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -9044,7 +9040,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize21.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize21.setImageResource(R.drawable.spine_lumbar_twist_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -9079,8 +9075,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==0){
                                 textView.setText("JUMPING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -9088,7 +9083,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9121,7 +9116,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.heel_touch);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9154,7 +9149,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.mountain_climber);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -9187,7 +9182,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.crossover_crunch);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -9220,7 +9215,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.side_bridges_left);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -9253,7 +9248,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.side_bridges_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9285,7 +9280,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.butt_bridge);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9317,7 +9312,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.bicycle_crunches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9350,7 +9345,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.v_v_up);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9384,7 +9379,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.heel_touch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9419,7 +9414,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.abdominal_crunches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9454,7 +9449,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.plank);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9489,7 +9484,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.crossover_crunch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9524,7 +9519,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.leg_raises);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9559,7 +9554,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.bicycle_crunches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9594,7 +9589,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.push_ups_rotation);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -9630,7 +9625,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.side_plank_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9665,7 +9660,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize18.setImageResource(R.drawable.side_plank_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9700,7 +9695,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize19.setImageResource(R.drawable.cobra_stretch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9736,7 +9731,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize20.setImageResource(R.drawable.spine_lumbar_twist_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9771,7 +9766,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize21.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize21.setImageResource(R.drawable.spine_lumbar_twist_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9822,8 +9817,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==2){
                                 textView.setText("JUMPING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -9831,7 +9825,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9864,7 +9858,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.heel_touch);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -9897,7 +9891,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.mountain_climber);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -9930,7 +9924,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.crossover_crunch);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -9963,7 +9957,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.side_bridges_left);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -9996,7 +9990,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.side_bridges_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10028,7 +10022,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.butt_bridge);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10060,7 +10054,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.bicycle_crunches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10093,7 +10087,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.v_v_up);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10127,7 +10121,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.heel_touch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10162,7 +10156,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.abdominal_crunches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10197,7 +10191,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.plank);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10232,7 +10226,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.crossover_crunch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10267,7 +10261,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.leg_raises);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10302,7 +10296,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.bicycle_crunches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10337,7 +10331,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.push_ups_rotation);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -10373,7 +10367,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.side_plank_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10408,7 +10402,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize18.setImageResource(R.drawable.side_plank_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10443,7 +10437,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize19.setImageResource(R.drawable.cobra_stretch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10479,7 +10473,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize20.setImageResource(R.drawable.spine_lumbar_twist_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -10538,20 +10532,20 @@ public class DitalsActivity extends AppCompatActivity {
             appBarLayout.setBackgroundResource(intValue);
             //.makeText(this, "CHEST INTERMEDIATE", //.LENGTH_SHORT).show();
             final MyListDataDitails[] myListData = new MyListDataDitails[] {
-                    new MyListDataDitails("JUMPING JACKS","x30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("KNEE PUSH-UPS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PUSH-UPS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("WIDE ARM PUSH-UPS","x15",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("HINDU PUSH-UPS","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("STAGGERED PUSH-UPS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PUSH-USP & ROTATION","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("KNEE PUSH-UPS","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("HINDU PUSH-UPS","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("DECLINE PUSH-UPS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("STAGGERED PUSH-UPS","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SHOULDER STRETCH","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("COBRA STRETCH","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CHEST STRETCH","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
+                    new MyListDataDitails("JUMPING JACKS","x30",R.drawable.jumping_jacks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("KNEE PUSH-UPS","x12",R.drawable.knee_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PUSH-UPS","x12",R.drawable.pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("WIDE ARM PUSH-UPS","x15",R.drawable.wide_arm_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("HINDU PUSH-UPS","x10",R.drawable.hindu_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("STAGGERED PUSH-UPS","x12",R.drawable.staggered_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PUSH-USP & ROTATION","x10",R.drawable.push_ups_rotation,R.drawable.gym_header_image2),
+                    new MyListDataDitails("KNEE PUSH-UPS","x10",R.drawable.knee_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("HINDU PUSH-UPS","x10",R.drawable.hindu_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("DECLINE PUSH-UPS","x12",R.drawable.decline_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("STAGGERED PUSH-UPS","x10",R.drawable.staggered_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SHOULDER STRETCH","00:30",R.drawable.shoulder_stretch,R.drawable.gym_header_image2),
+                    new MyListDataDitails("COBRA STRETCH","00:30",R.drawable.cobra_stretch,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CHEST STRETCH","00:30",R.drawable.chest_stretch,R.drawable.gym_header_image2),
 
             };
 
@@ -10689,8 +10683,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                     if (count[0]==1){
                         textView.setText("JUMPING JACKS");
-                        content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                "and keep your left leg straight, then quickly switch from one leg to the other.");
+                        content.setText("");
                         dilogvideo.setImageResource(R.drawable.play);
                         dilogvideo.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -10698,7 +10691,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                        dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                         relativeLayout.setVisibility(View.VISIBLE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -10724,7 +10717,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                        dilogexcersize2.setImageResource(R.drawable.knee_pushups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -10750,7 +10743,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                        dilogexcersize3.setImageResource(R.drawable.pushups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.VISIBLE);
@@ -10776,7 +10769,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                        dilogexcersize4.setImageResource(R.drawable.wide_arm_pushups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -10802,7 +10795,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                        dilogexcersize5.setImageResource(R.drawable.hindu_pushups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -10828,7 +10821,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize6.setImageResource(R.drawable.staggered_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -10853,7 +10846,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize7.setImageResource(R.drawable.push_ups_rotation);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -10878,7 +10871,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize8.setImageResource(R.drawable.knee_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -10904,7 +10897,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize9.setImageResource(R.drawable.hindu_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -10931,7 +10924,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize10.setImageResource(R.drawable.decline_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -10959,7 +10952,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize11.setImageResource(R.drawable.staggered_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -10987,7 +10980,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize12.setImageResource(R.drawable.shoulder_stretch);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -11015,7 +11008,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize13.setImageResource(R.drawable.cobra_stretch);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -11043,7 +11036,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize14.setImageResource(R.drawable.chest_stretch);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -11069,8 +11062,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==0){
                                 textView.setText("JUMPING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -11078,7 +11070,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11104,7 +11096,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.knee_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11130,7 +11122,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -11156,7 +11148,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.hindu_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -11182,7 +11174,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.hindu_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -11208,7 +11200,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.staggered_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11233,7 +11225,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.push_ups_rotation);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11258,7 +11250,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.knee_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11284,7 +11276,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.hindu_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11311,7 +11303,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.staggered_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11339,7 +11331,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.staggered_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11367,7 +11359,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.shoulder_stretch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11395,7 +11387,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.cobra_stretch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11423,7 +11415,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.chest_stretch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11466,8 +11458,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==2){
                                 textView.setText("JUMPING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -11475,7 +11466,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11501,7 +11492,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.knee_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11527,7 +11518,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -11553,7 +11544,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.wide_arm_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -11579,7 +11570,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.hindu_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -11605,7 +11596,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.staggered_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11630,7 +11621,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.push_ups_rotation);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11655,7 +11646,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.knee_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11681,7 +11672,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.hindu_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11708,7 +11699,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.decline_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11736,7 +11727,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.staggered_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11764,7 +11755,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.shoulder_stretch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11792,7 +11783,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.cobra_stretch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -11855,31 +11846,31 @@ public class DitalsActivity extends AppCompatActivity {
             //.makeText(this, "ARM INTERMEDIATE", //.LENGTH_SHORT).show();
 
             final MyListDataDitails[] myListData = new MyListDataDitails[] {
-                    new MyListDataDitails("ARM CIRCLES","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("FLOOR TRICEP DIPS","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("ARM CIRCLES","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("MILITARY PUSH UPS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("ALTERNATING HOOKS","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PUSH-UPS & ROTATION","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("LEG BARBELL CURL LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("LEG BARBELL CURL RIGHT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("FLOOR TRICEP DIPS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("MILITARY PUSH UPS","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("ALTERNATING HOOKS","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PUSH-UPS & ROTATION","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("LEG BARBELL CURL LEFT","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("LEG BARBBELL CURL RIGHT","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SKIPPING WITHOUT ROPE","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PUSH-UPS","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("BURPEES","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("ARM SCISSORS","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SKIPPING WITHOUT ROPE","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PUSH-UPS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("BURPEES","x8",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("TRICEPS STRETCH LEFT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("TRICEPS STRETCH RIGHT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("STANDING BICEPS STRETCH LEFT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("STANDING BICEPS STRETCH RIGHT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ARM CIRCLES","00:30",R.drawable.arm_circles,R.drawable.gym_header_image2),
+                    new MyListDataDitails("FLOOR TRICEP DIPS","x14",R.drawable.floor_tricep_dips,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ARM CIRCLES","00:30",R.drawable.arm_circles,R.drawable.gym_header_image2),
+                    new MyListDataDitails("MILITARY PUSH UPS","x12",R.drawable.military_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ALTERNATING HOOKS","00:30",R.drawable.alternating_hooks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PUSH-UPS & ROTATION","x12",R.drawable.push_ups_rotation,R.drawable.gym_header_image2),
+                    new MyListDataDitails("LEG BARBELL CURL LEFT","x12",R.drawable.leg_barbell_curl_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("LEG BARBELL CURL RIGHT","x12",R.drawable.leg_barbell_curl_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("FLOOR TRICEP DIPS","x12",R.drawable.floor_tricep_dips,R.drawable.gym_header_image2),
+                    new MyListDataDitails("MILITARY PUSH UPS","x10",R.drawable.military_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ALTERNATING HOOKS","00:30",R.drawable.alternating_hooks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PUSH-UPS & ROTATION","x10",R.drawable.push_ups_rotation,R.drawable.gym_header_image2),
+                    new MyListDataDitails("LEG BARBELL CURL LEFT","x10",R.drawable.leg_barbell_curl_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("LEG BARBBELL CURL RIGHT","x10",R.drawable.leg_barbell_curl_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SKIPPING WITHOUT ROPE","00:30",R.drawable.skipping_without_rope,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PUSH-UPS","x14",R.drawable.pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("BURPEES","x10",R.drawable.burpees,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ARM SCISSORS","00:30",R.drawable.arm_scissors,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SKIPPING WITHOUT ROPE","00:30",R.drawable.skipping_without_rope,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PUSH-UPS","x12",R.drawable.pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("BURPEES","x8",R.drawable.burpees,R.drawable.gym_header_image2),
+                    new MyListDataDitails("TRICEPS STRETCH LEFT","00:30",R.drawable.triceps_stretch_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("TRICEPS STRETCH RIGHT","00:30",R.drawable.triceps_stretch_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("STANDING BICEPS STRETCH LEFT","00:30",R.drawable.standing_bicpes_stretch_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("STANDING BICEPS STRETCH RIGHT","00:30",R.drawable.standing_bicpes_stretch_right,R.drawable.gym_header_image2),
 
             };
 
@@ -12098,8 +12089,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                     if (count[0]==1){
                         textView.setText("ARM CIRCLES");
-                        content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                "and keep your left leg straight, then quickly switch from one leg to the other.");
+                        content.setText("");
                         dilogvideo.setImageResource(R.drawable.play);
                         dilogvideo.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -12107,7 +12097,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                        dilogexcersize.setImageResource(R.drawable.arm_circles);
                         relativeLayout.setVisibility(View.VISIBLE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12144,7 +12134,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                        dilogexcersize2.setImageResource(R.drawable.floor_tricep_dips);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12181,7 +12171,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                        dilogexcersize3.setImageResource(R.drawable.arm_circles);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.VISIBLE);
@@ -12218,7 +12208,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                        dilogexcersize4.setImageResource(R.drawable.military_pushups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -12255,7 +12245,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                        dilogexcersize5.setImageResource(R.drawable.alternating_hooks);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -12292,7 +12282,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize6.setImageResource(R.drawable.push_ups_rotation);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12328,7 +12318,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize7.setImageResource(R.drawable.leg_barbell_curl_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12364,7 +12354,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize8.setImageResource(R.drawable.leg_barbell_curl_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12401,7 +12391,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize9.setImageResource(R.drawable.floor_tricep_dips);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12439,7 +12429,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize10.setImageResource(R.drawable.military_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12478,7 +12468,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize11.setImageResource(R.drawable.alternating_hooks);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12517,7 +12507,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize12.setImageResource(R.drawable.push_ups_rotation);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12556,7 +12546,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize13.setImageResource(R.drawable.leg_barbell_curl_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12595,7 +12585,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize14.setImageResource(R.drawable.leg_barbell_curl_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12634,7 +12624,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize15.setImageResource(R.drawable.skipping_without_rope);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12673,7 +12663,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                        dilogexcersize16.setImageResource(R.drawable.pushups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -12713,7 +12703,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize17.setImageResource(R.drawable.burpees);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12752,7 +12742,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize18.setImageResource(R.drawable.arm_scissors);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12791,7 +12781,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize19.setImageResource(R.drawable.skipping_without_rope);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12831,7 +12821,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize20.setImageResource(R.drawable.pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12870,7 +12860,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize21.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize21.setImageResource(R.drawable.burpees);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12909,7 +12899,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize22.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize22.setImageResource(R.drawable.triceps_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12948,7 +12938,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize23.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize23.setImageResource(R.drawable.triceps_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -12987,7 +12977,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize24.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize24.setImageResource(R.drawable.standing_bicpes_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -13026,7 +13016,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize25.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize25.setImageResource(R.drawable.standing_bicpes_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -13077,7 +13067,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.arm_circles);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13114,7 +13104,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.floor_tricep_dips);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13151,7 +13141,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.arm_circles);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -13188,7 +13178,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.military_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -13225,7 +13215,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.alternating_hooks);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -13262,7 +13252,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.push_ups_rotation);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13298,7 +13288,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.leg_barbell_curl_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13334,7 +13324,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.leg_barbell_curl_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13371,7 +13361,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.floor_tricep_dips);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13409,7 +13399,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.military_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13448,7 +13438,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.alternating_hooks);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13487,7 +13477,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.push_ups_rotation);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13526,7 +13516,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.leg_barbell_curl_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13565,7 +13555,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.leg_barbell_curl_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13604,7 +13594,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.skipping_without_rope);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13643,7 +13633,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -13683,7 +13673,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.burpees);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13722,7 +13712,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize18.setImageResource(R.drawable.arm_scissors);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13761,7 +13751,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize19.setImageResource(R.drawable.skipping_without_rope);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13801,7 +13791,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize20.setImageResource(R.drawable.pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13840,7 +13830,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize21.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize21.setImageResource(R.drawable.burpees);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13879,7 +13869,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize22.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize22.setImageResource(R.drawable.triceps_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13918,7 +13908,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize23.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize23.setImageResource(R.drawable.triceps_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13957,7 +13947,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize24.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize24.setImageResource(R.drawable.standing_bicpes_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -13996,7 +13986,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize25.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize25.setImageResource(R.drawable.standing_bicpes_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14049,8 +14039,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==2){
                                 textView.setText("ARM CIRCLES");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -14058,7 +14047,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.arm_circles);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14095,7 +14084,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.floor_tricep_dips);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14132,7 +14121,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.arm_circles);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -14169,7 +14158,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.military_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -14206,7 +14195,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.alternating_hooks);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -14243,7 +14232,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.push_ups_rotation);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14279,7 +14268,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.leg_barbell_curl_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14315,7 +14304,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.leg_barbell_curl_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14352,7 +14341,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.floor_tricep_dips);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14390,7 +14379,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.military_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14429,7 +14418,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.alternating_hooks);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14468,7 +14457,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.push_ups_rotation);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14507,7 +14496,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.leg_barbell_curl_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14546,7 +14535,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.leg_barbell_curl_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14585,7 +14574,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.skipping_without_rope);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14624,7 +14613,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -14664,7 +14653,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.burpees);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14703,7 +14692,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize18.setImageResource(R.drawable.arm_scissors);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14742,7 +14731,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize19.setImageResource(R.drawable.skipping_without_rope);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14782,7 +14771,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize20.setImageResource(R.drawable.pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14821,7 +14810,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize21.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize21.setImageResource(R.drawable.burpees);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14860,7 +14849,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize22.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize22.setImageResource(R.drawable.triceps_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14899,7 +14888,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize23.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize23.setImageResource(R.drawable.triceps_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -14938,7 +14927,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize25.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize25.setImageResource(R.drawable.standing_bicpes_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -15003,42 +14992,42 @@ public class DitalsActivity extends AppCompatActivity {
             appBarLayout.setBackgroundResource(intValue);
             //.makeText(this, "LEG INTERMEDIATE", //.LENGTH_SHORT).show();
             final MyListDataDitails[] myListData = new MyListDataDitails[] {
-                    new MyListDataDitails("JUMPING JACKS","x30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SQUATS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SQUATS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SQUATS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("FIRE HYDRANT LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("FIRE HYDRANT RIGHT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("FIRE HYDRANT LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("FIRE HYDRANT RIGHT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("FIRE HYDRANT LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("FIRE HYDRANT RIGHT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("LUNGES","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("LUNGES","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE LEG CIRCLES LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE LEG CIRCLES RIGHT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE LEG CIRCLES LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE LEG CIRCLES LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SUMO SQUAT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SUMO SQUAT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SUMO SQUAT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("REVERSE FLUTTER KICKS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("REVERSE FLUTTER KICKS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("REVERSE FLUTTER KICKS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("WALL SIT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("LEFT QUAD STRETCH WITH WALL","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("RIGHT QUAD STRETCH WITH WALL","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("KNEE TO CHEST STRETCH LEFT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("KNEE TO CHEST STRETCH RIGHT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CALF RAISES WITH SPLAYED FOOT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SALF RAISES WITH SPLAYED FOOT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SALF RAISES WITH SPLAYED FOOT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SINGLE LEG CALF HOP LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SINGLE LEG CALF HOP RIGHT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SINGLE LEG CALF HOP LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SINGLE LEG CALF HOP RIGHT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CALF STRETCH LEFT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CALF STRETCH RIGHT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
+                    new MyListDataDitails("JUMPING JACKS","x30",R.drawable.jumping_jacks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SQUATS","x12",R.drawable.squats,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SQUATS","x12",R.drawable.squats,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SQUATS","x12",R.drawable.squats,R.drawable.gym_header_image2),
+                    new MyListDataDitails("FIRE HYDRANT LEFT","x12",R.drawable.fire_hydrant_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("FIRE HYDRANT RIGHT","x12",R.drawable.fire_hydrant_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("FIRE HYDRANT LEFT","x12",R.drawable.fire_hydrant_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("FIRE HYDRANT RIGHT","x12",R.drawable.fire_hydrant_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("FIRE HYDRANT LEFT","x12",R.drawable.fire_hydrant_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("FIRE HYDRANT RIGHT","x12",R.drawable.fire_hydrant_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("LUNGES","x14",R.drawable.lunges,R.drawable.gym_header_image2),
+                    new MyListDataDitails("LUNGES","x14",R.drawable.lunges  ,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE LEG CIRCLES LEFT","x12",R.drawable.side_leg_circles_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE LEG CIRCLES RIGHT","x12",R.drawable.side_leg_circles_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE LEG CIRCLES LEFT","x12",R.drawable.side_leg_circles_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE LEG CIRCLES RIGHT","x12",R.drawable.side_leg_circles_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SUMO SQUAT","x12",R.drawable.sumo_squat,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SUMO SQUAT","x12",R.drawable.sumo_squat,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SUMO SQUAT","x12",R.drawable.sumo_squat,R.drawable.gym_header_image2),
+                    new MyListDataDitails("REVERSE FLUTTER KICKS","x12",R.drawable.reverse_flutter_kicks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("REVERSE FLUTTER KICKS","x12",R.drawable.reverse_flutter_kicks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("REVERSE FLUTTER KICKS","x12",R.drawable.reverse_flutter_kicks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("WALL SIT","00:30",R.drawable.wall_sit,R.drawable.gym_header_image2),
+                    new MyListDataDitails("LEFT QUAD STRETCH WITH WALL","00:30",R.drawable.left_quad_stretch_with_wall,R.drawable.gym_header_image2),
+                    new MyListDataDitails("RIGHT QUAD STRETCH WITH WALL","00:30",R.drawable.right_quad_stretch_with_wall,R.drawable.gym_header_image2),
+                    new MyListDataDitails("KNEE TO CHEST STRETCH LEFT","00:30",R.drawable.knee_to_chest_stretch_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("KNEE TO CHEST STRETCH RIGHT","00:30",R.drawable.knee_to_chest_stretch_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CALF RAISES WITH SPLAYED FOOT","x12",R.drawable.calf_raises_with_splayed_foot,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SALF RAISES WITH SPLAYED FOOT","x12",R.drawable.calf_raises_with_splayed_foot,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SALF RAISES WITH SPLAYED FOOT","x12",R.drawable.calf_raises_with_splayed_foot,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SINGLE LEG CALF HOP LEFT","x12",R.drawable.single_leg_calf_hop_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SINGLE LEG CALF HOP RIGHT","x12",R.drawable.single_leg_calf_hop_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SINGLE LEG CALF HOP LEFT","x12",R.drawable.single_leg_calf_hop_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SINGLE LEG CALF HOP RIGHT","x12",R.drawable.single_leg_calf_hop_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CALF STRETCH LEFT","00:30",R.drawable.calf_stretch_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CALF STRETCH RIGHT","00:30",R.drawable.calf_stretch_right,R.drawable.gym_header_image2),
 
             };
 
@@ -15341,7 +15330,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                        dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                         relativeLayout.setVisibility(View.VISIBLE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -15389,7 +15378,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                        dilogexcersize2.setImageResource(R.drawable.squats);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -15437,7 +15426,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                        dilogexcersize3.setImageResource(R.drawable.squats);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.VISIBLE);
@@ -15485,7 +15474,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                        dilogexcersize4.setImageResource(R.drawable.squats);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -15533,7 +15522,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                        dilogexcersize5.setImageResource(R.drawable.fire_hydrant_left);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -15581,7 +15570,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize6.setImageResource(R.drawable.fire_hydrant_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -15628,7 +15617,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize7.setImageResource(R.drawable.fire_hydrant_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -15675,7 +15664,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize8.setImageResource(R.drawable.fire_hydrant_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -15723,7 +15712,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize9.setImageResource(R.drawable.lunges);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -15772,7 +15761,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize10.setImageResource(R.drawable.lunges);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -15822,7 +15811,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize11.setImageResource(R.drawable.side_leg_circles_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -15872,7 +15861,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize12.setImageResource(R.drawable.side_leg_circles_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -15922,7 +15911,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize13.setImageResource(R.drawable.side_leg_circles_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -15972,7 +15961,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize14.setImageResource(R.drawable.side_leg_circles_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16022,7 +16011,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize15.setImageResource(R.drawable.sumo_squat);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16072,7 +16061,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                        dilogexcersize16.setImageResource(R.drawable.sumo_squat);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -16123,7 +16112,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize17.setImageResource(R.drawable.sumo_squat);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16173,7 +16162,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize18.setImageResource(R.drawable.reverse_flutter_kicks);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16223,7 +16212,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize19.setImageResource(R.drawable.reverse_flutter_kicks);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16274,7 +16263,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize20.setImageResource(R.drawable.reverse_flutter_kicks);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16324,7 +16313,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize21.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize21.setImageResource(R.drawable.wall_sit);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16374,7 +16363,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize22.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize22.setImageResource(R.drawable.left_quad_stretch_with_wall);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16424,7 +16413,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize23.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize23.setImageResource(R.drawable.right_quad_stretch_with_wall);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16474,7 +16463,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize24.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize24.setImageResource(R.drawable.knee_to_chest_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16524,7 +16513,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize25.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize25.setImageResource(R.drawable.knee_to_chest_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16574,7 +16563,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize26.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize26.setImageResource(R.drawable.calf_raises_with_splayed_foot);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16624,7 +16613,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize27.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize27.setImageResource(R.drawable.calf_raises_with_splayed_foot);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16674,7 +16663,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize28.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize28.setImageResource(R.drawable.calf_raises_with_splayed_foot);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16724,7 +16713,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize29.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize29.setImageResource(R.drawable.single_leg_calf_hop_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16774,7 +16763,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize30.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize30.setImageResource(R.drawable.single_leg_calf_hop_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16824,7 +16813,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize31.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize31.setImageResource(R.drawable.single_leg_calf_hop_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16874,7 +16863,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize32.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize32.setImageResource(R.drawable.single_leg_calf_hop_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16924,7 +16913,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize33.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize33.setImageResource(R.drawable.calf_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -16974,7 +16963,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize34.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize34.setImageResource(R.drawable.calf_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -17024,7 +17013,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize35.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize35.setImageResource(R.drawable.fire_hydrant_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -17074,7 +17063,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize36.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize36.setImageResource(R.drawable.fire_hydrant_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -17127,8 +17116,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==0){
                                 textView.setText("JUMPING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -17136,7 +17124,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -17184,7 +17172,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.squats);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -17232,7 +17220,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.squats);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -17280,7 +17268,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.squats);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -17328,7 +17316,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.fire_hydrant_left);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -17376,7 +17364,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.fire_hydrant_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -17423,7 +17411,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.fire_hydrant_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -17470,7 +17458,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.fire_hydrant_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -17518,7 +17506,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.lunges);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -17567,7 +17555,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.lunges);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -17617,7 +17605,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.side_leg_circles_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -17667,7 +17655,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.side_leg_circles_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -17717,7 +17705,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.side_leg_circles_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -17767,7 +17755,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.side_leg_circles_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -17817,7 +17805,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.sumo_squat);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -17867,7 +17855,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.sumo_squat);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -17918,7 +17906,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.sumo_squat);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -17968,7 +17956,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize18.setImageResource(R.drawable.reverse_flutter_kicks);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18018,7 +18006,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize19.setImageResource(R.drawable.reverse_flutter_kicks);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18069,7 +18057,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize20.setImageResource(R.drawable.reverse_flutter_kicks);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18119,7 +18107,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize21.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize21.setImageResource(R.drawable.wall_sit);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18169,7 +18157,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize22.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize22.setImageResource(R.drawable.left_quad_stretch_with_wall);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18219,7 +18207,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize23.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize23.setImageResource(R.drawable.right_quad_stretch_with_wall);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18269,7 +18257,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize24.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize24.setImageResource(R.drawable.knee_to_chest_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18319,7 +18307,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize25.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize25.setImageResource(R.drawable.knee_to_chest_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18369,7 +18357,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize26.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize26.setImageResource(R.drawable.calf_raises_with_splayed_foot);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18419,7 +18407,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize27.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize27.setImageResource(R.drawable.calf_raises_with_splayed_foot);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18469,7 +18457,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize28.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize28.setImageResource(R.drawable.calf_raises_with_splayed_foot);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18519,7 +18507,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize29.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize29.setImageResource(R.drawable.single_leg_calf_hop_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18569,7 +18557,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize30.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize30.setImageResource(R.drawable.single_leg_calf_hop_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18619,7 +18607,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize31.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize31.setImageResource(R.drawable.single_leg_calf_hop_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18669,7 +18657,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize32.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize32.setImageResource(R.drawable.single_leg_calf_hop_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18719,7 +18707,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize33.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize33.setImageResource(R.drawable.calf_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18769,7 +18757,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize34.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize34.setImageResource(R.drawable.calf_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18819,7 +18807,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize35.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize35.setImageResource(R.drawable.fire_hydrant_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18869,7 +18857,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize36.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize36.setImageResource(R.drawable.fire_hydrant_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18933,8 +18921,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==2){
                                 textView.setText("JUMPING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -18942,7 +18929,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -18990,7 +18977,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.squats);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19038,7 +19025,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.squats);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -19086,7 +19073,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.squats);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -19134,7 +19121,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.fire_hydrant_left);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -19182,7 +19169,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.fire_hydrant_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19229,7 +19216,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.fire_hydrant_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19276,7 +19263,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.fire_hydrant_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19324,7 +19311,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.lunges);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19373,7 +19360,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.lunges);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19423,7 +19410,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.side_leg_circles_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19473,7 +19460,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.side_leg_circles_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19523,7 +19510,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.side_leg_circles_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19573,7 +19560,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.side_leg_circles_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19623,7 +19610,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.sumo_squat);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19673,7 +19660,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.sumo_squat);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -19724,7 +19711,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.sumo_squat);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19774,7 +19761,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize18.setImageResource(R.drawable.reverse_flutter_kicks);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19824,7 +19811,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize19.setImageResource(R.drawable.reverse_flutter_kicks);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19875,7 +19862,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize20.setImageResource(R.drawable.reverse_flutter_kicks);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19925,7 +19912,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize21.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize21.setImageResource(R.drawable.wall_sit);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -19975,7 +19962,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize22.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize22.setImageResource(R.drawable.left_quad_stretch_with_wall);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20025,7 +20012,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize23.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize23.setImageResource(R.drawable.right_quad_stretch_with_wall);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20075,7 +20062,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize24.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize24.setImageResource(R.drawable.knee_to_chest_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20125,7 +20112,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize25.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize25.setImageResource(R.drawable.knee_to_chest_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20175,7 +20162,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize26.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize26.setImageResource(R.drawable.calf_raises_with_splayed_foot);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20225,7 +20212,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize27.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize27.setImageResource(R.drawable.calf_raises_with_splayed_foot);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20275,7 +20262,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize28.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize28.setImageResource(R.drawable.calf_raises_with_splayed_foot);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20325,7 +20312,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize29.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize29.setImageResource(R.drawable.single_leg_calf_hop_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20375,7 +20362,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize30.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize30.setImageResource(R.drawable.single_leg_calf_hop_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20425,7 +20412,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize31.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize31.setImageResource(R.drawable.single_leg_calf_hop_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20475,7 +20462,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize32.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize32.setImageResource(R.drawable.single_leg_calf_hop_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20525,7 +20512,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize33.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize33.setImageResource(R.drawable.calf_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20575,7 +20562,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize34.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize34.setImageResource(R.drawable.calf_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20625,7 +20612,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize35.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize35.setImageResource(R.drawable.fire_hydrant_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -20704,23 +20691,23 @@ public class DitalsActivity extends AppCompatActivity {
             //.makeText(this, "SHOULDER INTERMEDIATE", //.LENGTH_SHORT).show();
 
             final MyListDataDitails[] myListData = new MyListDataDitails[] {
-                    new MyListDataDitails("JUMPIING JACKS","x30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("TRICEPS KICKBACKS","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("INCLINE PUSH-UPS","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("RHOMBOID PULLS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("FLOOR TRICEP DIPS","x16",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CAT COW POSE","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("TRICEPS KICKBACKS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("INCLINE PUSH-UPS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("HIP HINGE","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("FLOOR TRICEP DIPS","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE-LYING FLOOR STRETCH LEFT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE-LYING FLOOR STRETCH RIGHT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("HOVER PUSH UP","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SWIMMER AND SUPERMAN","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("HOVER PUSH UP","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SWIMMER AND SUPERMAN","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CHILD'S POSE","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
+                    new MyListDataDitails("JUMPIING JACKS","x30",R.drawable.jumping_jacks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("TRICEPS KICKBACKS","x14",R.drawable.triceps_kickbacks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("INCLINE PUSH-UPS","x14",R.drawable.incline_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("RHOMBOID PULLS","x12",R.drawable.rhomboid_pulls,R.drawable.gym_header_image2),
+                    new MyListDataDitails("FLOOR TRICEP DIPS","x16",R.drawable.floor_tricep_dips,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CAT COW POSE","00:30",R.drawable.cat_cow_pose,R.drawable.gym_header_image2),
+                    new MyListDataDitails("TRICEPS KICKBACKS","x12",R.drawable.triceps_kickbacks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("INCLINE PUSH-UPS","x12",R.drawable.incline_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("HIP HINGE","x10",R.drawable.hip_hinge,R.drawable.gym_header_image2),
+                    new MyListDataDitails("FLOOR TRICEP DIPS","x14",R.drawable.floor_tricep_dips,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE-LYING FLOOR STRETCH LEFT","00:30",R.drawable.side_lying_floor_stretch_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE-LYING FLOOR STRETCH RIGHT","00:30",R.drawable.side_lying_floor_stretch_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("HOVER PUSH UP","x14",R.drawable.hover_pushup,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SWIMMER AND SUPERMAN","x14",R.drawable.swimmer_superman,R.drawable.gym_header_image2),
+                    new MyListDataDitails("HOVER PUSH UP","x12",R.drawable.hover_pushup,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SWIMMER AND SUPERMAN","x12",R.drawable.swimmer_superman,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CHILD'S POSE","00:30",R.drawable.childs_pose,R.drawable.gym_header_image2),
 
             };
 
@@ -20882,8 +20869,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                     if (count[0]==1){
                         textView.setText("JUMPIING JACKS");
-                        content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                "and keep your left leg straight, then quickly switch from one leg to the other.");
+                        content.setText("");
                         dilogvideo.setImageResource(R.drawable.play);
                         dilogvideo.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -20891,7 +20877,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                        dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                         relativeLayout.setVisibility(View.VISIBLE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -20920,7 +20906,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                        dilogexcersize2.setImageResource(R.drawable.triceps_kickbacks);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -20949,7 +20935,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                        dilogexcersize3.setImageResource(R.drawable.incline_pushups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.VISIBLE);
@@ -20978,7 +20964,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                        dilogexcersize4.setImageResource(R.drawable.rhomboid_pulls);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -21007,7 +20993,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                        dilogexcersize5.setImageResource(R.drawable.floor_tricep_dips);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -21036,7 +21022,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize6.setImageResource(R.drawable.cat_cow_pose);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -21064,7 +21050,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize7.setImageResource(R.drawable.triceps_kickbacks);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -21092,7 +21078,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize8.setImageResource(R.drawable.incline_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -21121,7 +21107,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize9.setImageResource(R.drawable.hip_hinge);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -21151,7 +21137,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize10.setImageResource(R.drawable.floor_tricep_dips);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -21182,7 +21168,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize11.setImageResource(R.drawable.side_lying_floor_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -21213,7 +21199,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize12.setImageResource(R.drawable.side_lying_floor_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -21244,7 +21230,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize13.setImageResource(R.drawable.hover_pushup);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -21275,7 +21261,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize14.setImageResource(R.drawable.swimmer_superman);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -21306,7 +21292,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize15.setImageResource(R.drawable.hover_pushup);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -21337,7 +21323,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                        dilogexcersize16.setImageResource(R.drawable.swimmer_superman);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -21369,7 +21355,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize17.setImageResource(R.drawable.childs_pose);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -21402,8 +21388,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==0){
                                 textView.setText("JUMPIING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -21411,7 +21396,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21440,7 +21425,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.triceps_kickbacks);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21469,7 +21454,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.incline_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -21498,7 +21483,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.rhomboid_pulls);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -21527,7 +21512,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.floor_tricep_dips);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -21556,7 +21541,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.cat_cow_pose);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21584,7 +21569,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.triceps_kickbacks);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21612,7 +21597,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.incline_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21641,7 +21626,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.hip_hinge);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21671,7 +21656,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.floor_tricep_dips);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21702,7 +21687,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.side_lying_floor_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21733,7 +21718,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.side_lying_floor_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21764,7 +21749,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.hover_pushup);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21795,7 +21780,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.swimmer_superman);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21826,7 +21811,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.hover_pushup);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21857,7 +21842,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.swimmer_superman);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -21889,7 +21874,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.childs_pose);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21935,8 +21920,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==2){
                                 textView.setText("JUMPIING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -21944,7 +21928,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -21973,7 +21957,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.triceps_kickbacks);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -22002,7 +21986,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.incline_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -22031,7 +22015,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.rhomboid_pulls);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -22060,7 +22044,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.floor_tricep_dips);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -22089,7 +22073,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.cat_cow_pose);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -22117,7 +22101,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.triceps_kickbacks);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -22145,7 +22129,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.incline_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -22174,7 +22158,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.hip_hinge);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -22204,7 +22188,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.floor_tricep_dips);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -22235,7 +22219,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.side_lying_floor_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -22266,7 +22250,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.side_lying_floor_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -22297,7 +22281,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.hover_pushup);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -22328,7 +22312,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.swimmer_superman);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -22359,7 +22343,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.hover_pushup);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -22390,7 +22374,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.swimmer_superman);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -22455,27 +22439,27 @@ public class DitalsActivity extends AppCompatActivity {
             //.makeText(this, "ABS ADVANCED", //.LENGTH_SHORT).show();
 
             final MyListDataDitails[] myListData = new MyListDataDitails[] {
-                    new MyListDataDitails("JUMPING JACKS","x30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIT-UPS","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE BRIDGES LIFT","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE BRIDGES RIGHT","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("ABDOMINAL CRUNCHES","x30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("BICYCLE CRUNCHES","x24",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE PLANK RIGHT","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE PLANK LEFT","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("V-UP","x18",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PUSH-UPS & ROTATION","x24",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("RUSSIAN TWIST","x48",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("ABDOMINAL CRUNCHES","x208",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("BUTT BRIDGE","x30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("HEEL TOUCH","x34",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("MOUNTAIN CLIMBER","x30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CROSSOVER CRUCHES","x24",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("V-UP","x16",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PLANK","01:00",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("COBRA STRETCH","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SPINE LUMBAR TWIST STRETCH LEFT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SPIN LUMBAR TWIST STRETCH RIGHT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
+                    new MyListDataDitails("JUMPING JACKS","x30",R.drawable.jumping_jacks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIT-UPS","x20",R.drawable.sit_ups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE BRIDGES LIFT","x20",R.drawable.side_bridges_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE BRIDGES RIGHT","x20",R.drawable.side_bridges_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ABDOMINAL CRUNCHES","x30",R.drawable.abdominal_crunches,R.drawable.gym_header_image2),
+                    new MyListDataDitails("BICYCLE CRUNCHES","x24",R.drawable.bicycle_crunches,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE PLANK RIGHT","x20",R.drawable.side_plank_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE PLANK LEFT","x20",R.drawable.side_plank_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("V-UP","x18",R.drawable.v_v_up,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PUSH-UPS & ROTATION","x24",R.drawable.push_ups_rotation,R.drawable.gym_header_image2),
+                    new MyListDataDitails("RUSSIAN TWIST","x48",R.drawable.russian_twist,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ABDOMINAL CRUNCHES","x208",R.drawable.abdominal_crunches,R.drawable.gym_header_image2),
+                    new MyListDataDitails("BUTT BRIDGE","x30",R.drawable.butt_bridge,R.drawable.gym_header_image2),
+                    new MyListDataDitails("HEEL TOUCH","x34",R.drawable.heel_touch,R.drawable.gym_header_image2),
+                    new MyListDataDitails("MOUNTAIN CLIMBER","x30",R.drawable.mountain_climber,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CROSSOVER CRUCHES","x24",R.drawable.crossover_crunch,R.drawable.gym_header_image2),
+                    new MyListDataDitails("V-UP","x16",R.drawable.v_v_up,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PLANK","01:00",R.drawable.plank,R.drawable.gym_header_image2),
+                    new MyListDataDitails("COBRA STRETCH","00:30",R.drawable.cobra_stretch,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SPINE LUMBAR TWIST STRETCH LEFT","00:30",R.drawable.spine_lumbar_twist_stretch_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SPIN LUMBAR TWIST STRETCH RIGHT","00:30",R.drawable.spine_lumbar_twist_stretch_right,R.drawable.gym_header_image2),
 
             };
 
@@ -22665,8 +22649,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                     if (count[0]==1){
                         textView.setText("JUMPING JACKS");
-                        content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                "and keep your left leg straight, then quickly switch from one leg to the other.");
+                        content.setText("");
                         dilogvideo.setImageResource(R.drawable.play);
                         dilogvideo.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -22674,7 +22657,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                        dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                         relativeLayout.setVisibility(View.VISIBLE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -22707,7 +22690,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                        dilogexcersize2.setImageResource(R.drawable.sit_ups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -22740,7 +22723,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                        dilogexcersize3.setImageResource(R.drawable.side_bridges_left);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.VISIBLE);
@@ -22773,7 +22756,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                        dilogexcersize4.setImageResource(R.drawable.side_bridges_right);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -22806,7 +22789,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                        dilogexcersize5.setImageResource(R.drawable.abdominal_crunches);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -22839,7 +22822,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize6.setImageResource(R.drawable.bicycle_crunches);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -22871,7 +22854,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize7.setImageResource(R.drawable.side_plank_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -22903,7 +22886,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize8.setImageResource(R.drawable.side_plank_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -22936,7 +22919,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize9.setImageResource(R.drawable.v_v_up);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -22970,7 +22953,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize10.setImageResource(R.drawable.push_ups_rotation);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -23005,7 +22988,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize11.setImageResource(R.drawable.russian_twist);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -23040,7 +23023,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize12.setImageResource(R.drawable.abdominal_crunches);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -23075,7 +23058,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize13.setImageResource(R.drawable.butt_bridge);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -23110,7 +23093,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize14.setImageResource(R.drawable.heel_touch);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -23145,7 +23128,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize15.setImageResource(R.drawable.mountain_climber);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -23180,7 +23163,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                        dilogexcersize16.setImageResource(R.drawable.crossover_crunch);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -23216,7 +23199,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize17.setImageResource(R.drawable.v_v_up);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -23251,7 +23234,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize18.setImageResource(R.drawable.plank);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -23286,7 +23269,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize19.setImageResource(R.drawable.cobra_stretch);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -23322,7 +23305,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize20.setImageResource(R.drawable.spine_lumbar_twist_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -23357,7 +23340,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize21.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize21.setImageResource(R.drawable.spine_lumbar_twist_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -23392,8 +23375,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==0){
                                 textView.setText("JUMPING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -23401,7 +23383,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -23434,7 +23416,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.sit_ups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -23467,7 +23449,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.side_bridges_left);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -23500,7 +23482,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.side_bridges_right);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -23533,7 +23515,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.abdominal_crunches);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -23566,7 +23548,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.bicycle_crunches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -23598,7 +23580,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.side_plank_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -23630,7 +23612,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.side_plank_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -23663,7 +23645,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.v_v_up);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -23697,7 +23679,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.push_ups_rotation);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -23732,7 +23714,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.russian_twist);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -23767,7 +23749,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.abdominal_crunches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -23802,7 +23784,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.butt_bridge);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -23837,7 +23819,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.heel_touch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -23872,7 +23854,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.mountain_climber);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -23907,7 +23889,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.crossover_crunch);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -23943,7 +23925,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.v_v_up);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -23978,7 +23960,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize18.setImageResource(R.drawable.plank);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24013,7 +23995,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize19.setImageResource(R.drawable.cobra_stretch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24049,7 +24031,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize20.setImageResource(R.drawable.spine_lumbar_twist_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24084,7 +24066,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize21.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize21.setImageResource(R.drawable.spine_lumbar_twist_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24134,8 +24116,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==2){
                                 textView.setText("JUMPING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -24143,7 +24124,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24176,7 +24157,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.sit_ups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24209,7 +24190,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.side_bridges_left);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -24242,7 +24223,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.side_bridges_right);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -24275,7 +24256,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.abdominal_crunches);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -24308,7 +24289,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.bicycle_crunches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24340,7 +24321,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.side_plank_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24372,7 +24353,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.side_plank_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24405,7 +24386,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.v_v_up);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24439,7 +24420,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.push_ups_rotation);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24474,7 +24455,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.russian_twist);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24509,7 +24490,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.abdominal_crunches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24544,7 +24525,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.butt_bridge);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24579,7 +24560,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.heel_touch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24614,7 +24595,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.mountain_climber);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24649,7 +24630,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize16.setImageResource(R.drawable.crossover_crunch);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -24685,7 +24666,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.v_v_up);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24720,7 +24701,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize18.setImageResource(R.drawable.plank);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24755,7 +24736,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize19.setImageResource(R.drawable.cobra_stretch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -24791,7 +24772,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize20.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize20.setImageResource(R.drawable.spine_lumbar_twist_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
