@@ -37,7 +37,16 @@
         android:layout_toRightOf="@+id/eaual_sign"
         android:textColor="#131313" />
 
-    <ImageView
+<!--    <ImageView-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:paddingRight="10dp"-->
+<!--        android:src="@drawable/gym_header_image3"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:id="@+id/animate_image"/>-->
+
+    <pl.droidsonroids.gif.GifImageView
         android:layout_width="60dp"
         android:layout_height="50dp"
         android:layout_centerVertical="true"

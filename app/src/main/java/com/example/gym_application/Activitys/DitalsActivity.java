@@ -22,6 +22,8 @@ import com.example.gym_application.Models.MyListDataDitails;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 
+import pl.droidsonroids.gif.GifImageView;
+
 public class DitalsActivity extends AppCompatActivity {
 
     ImageView backbutton;
@@ -69,17 +71,17 @@ public class DitalsActivity extends AppCompatActivity {
 //            //.makeText(this, "ABS BEGINNER", //.LENGTH_SHORT).show();
 
             final MyListDataDitails[] myListData = new MyListDataDitails[] {
-                    new MyListDataDitails("JUMPING JACKS","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("ABDOMINAL CRUNCHES","x16",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("RUSSIAN TWIST","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("MOUNTAIN CLIMBER","x16",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("HEEL TOUCH","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("LEG RAISES","x16",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PLANK","00:20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("ABIDOMINAL CRUNCHES","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("RUSSIAN TWIST","x32",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("MOUNTAIN CLIMBER","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("HEEL TOUCH","x20",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
+                    new MyListDataDitails("JUMPING JACKS","x20",R.drawable.jumping,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ABDOMINAL CRUNCHES","x16",R.drawable.abdominal_crunches,R.drawable.gym_header_image2),
+                    new MyListDataDitails("RUSSIAN TWIST","x20",R.drawable.russian_twist,R.drawable.gym_header_image2),
+                    new MyListDataDitails("MOUNTAIN CLIMBER","x16",R.drawable.mountain_climber,R.drawable.gym_header_image2),
+                    new MyListDataDitails("HEEL TOUCH","x20",R.drawable.heel_touch,R.drawable.gym_header_image2),
+                    new MyListDataDitails("LEG RAISES","x16",R.drawable.leg_raises,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PLANK","00:20",R.drawable.plank,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ABIDOMINAL CRUNCHES","x12",R.drawable.abdominal_crunches,R.drawable.gym_header_image2),
+                    new MyListDataDitails("RUSSIAN TWIST","x32",R.drawable.russian_twist,R.drawable.gym_header_image2),
+                    new MyListDataDitails("MOUNTAIN CLIMBER","x12",R.drawable.mountain_climber,R.drawable.gym_header_image2),
+                    new MyListDataDitails("HEEL TOUCH","x20",R.drawable.heel_touch,R.drawable.gym_header_image2),
 
             };
 
@@ -123,56 +125,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -180,28 +182,28 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
 
 
                     if (count[0]==1){
-                        textView.setText(item.getDescription());
-                        content.setText("JUMPING JACKS");
+                        textView.setText("JUMPING JACKS");
+                        content.setText("");
                         dilogvideo.setImageResource(R.drawable.play);
                         dilogvideo.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -209,7 +211,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                        dilogexcersize.setImageResource(R.drawable.jumping);
                         relativeLayout.setVisibility(View.VISIBLE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -232,7 +234,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                        dilogexcersize2.setImageResource(R.drawable.abdominal_crunches);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -255,7 +257,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                        dilogexcersize3.setImageResource(R.drawable.russian_twist);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.VISIBLE);
@@ -278,7 +280,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                        dilogexcersize4.setImageResource(R.drawable.mountain_climber);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -301,7 +303,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                        dilogexcersize5.setImageResource(R.drawable.heel_touch);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -324,7 +326,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize6.setImageResource(R.drawable.leg_raises);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -346,7 +348,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize7.setImageResource(R.drawable.plank);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -368,7 +370,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize8.setImageResource(R.drawable.abdominal_crunches);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -391,7 +393,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize9.setImageResource(R.drawable.russian_twist);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -415,7 +417,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize10.setImageResource(R.drawable.mountain_climber);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -440,7 +442,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize11.setImageResource(R.drawable.heel_touch);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -464,8 +466,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==0){
                                 textView.setText("JUMPING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -473,7 +474,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -496,7 +497,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.abdominal_crunches);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -519,7 +520,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.russian_twist);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -542,7 +543,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.mountain_climber);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -565,7 +566,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.heel_touch);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -588,7 +589,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.leg_raises);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -610,7 +611,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.plank);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -632,7 +633,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.abdominal_crunches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -655,7 +656,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.russian_twist);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -679,7 +680,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.mountain_climber);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -704,7 +705,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.heel_touch);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -743,8 +744,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==2){
                                 textView.setText("JUMPING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -752,7 +752,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -775,7 +775,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.abdominal_crunches);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -798,7 +798,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.russian_twist);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -821,7 +821,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.mountain_climber);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -844,7 +844,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.heel_touch);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -867,7 +867,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize6.setImageResource(R.drawable.leg_raises);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -890,7 +890,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.plank);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -912,7 +912,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.abdominal_crunches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -935,7 +935,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.russian_twist);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -959,7 +959,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.mountain_climber);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -1019,15 +1019,15 @@ public class DitalsActivity extends AppCompatActivity {
 //            //.makeText(this, "china", //.LENGTH_SHORT).show();
 
             final MyListDataDitails[] myListData = new MyListDataDitails[] {
-                    new MyListDataDitails("JUMPING JACKS","x30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("INCLINE PUSH-UPS","x16",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("KNEE PUSH-UPS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PUSH-UPS","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("WIDE ARM PUSH-UPS","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("INCLINE PUSH-UPS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("BOX PUSH-UPS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("WIDE ARM PUSH-UPS","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("HINDU PUSH-UPS","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
+                    new MyListDataDitails("JUMPING JACKS","x30",R.drawable.jumping_jacks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("INCLINE PUSH-UPS","x16",R.drawable.incline_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("KNEE PUSH-UPS","x12",R.drawable.knee_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PUSH-UPS","x10",R.drawable.pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("WIDE ARM PUSH-UPS","x10",R.drawable.wide_arm_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("INCLINE PUSH-UPS","x12",R.drawable.incline_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("BOX PUSH-UPS","x12",R.drawable.box_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("WIDE ARM PUSH-UPS","x10",R.drawable.wide_arm_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("HINDU PUSH-UPS","x10",R.drawable.hindu_pushups,R.drawable.gym_header_image2),
 
             };
             final RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView1);
@@ -1067,56 +1067,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -1124,7 +1124,7 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
 
@@ -1132,8 +1132,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                     if (count[0]==1){
                         textView.setText("JUMPING JACKS");
-                        content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                "and keep your left leg straight, then quickly switch from one leg to the other.");
+                        content.setText("");
                         dilogvideo.setImageResource(R.drawable.play);
                         dilogvideo.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -1141,7 +1140,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                        dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                         relativeLayout.setVisibility(View.VISIBLE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -1162,7 +1161,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                        dilogexcersize2.setImageResource(R.drawable.incline_pushups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -1183,7 +1182,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                        dilogexcersize3.setImageResource(R.drawable.knee_pushups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.VISIBLE);
@@ -1204,7 +1203,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                        dilogexcersize4.setImageResource(R.drawable.pushups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -1225,7 +1224,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                        dilogexcersize5.setImageResource(R.drawable.wide_arm_pushups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -1246,7 +1245,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize6.setImageResource(R.drawable.incline_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -1266,7 +1265,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize7.setImageResource(R.drawable.box_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -1286,7 +1285,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize8.setImageResource(R.drawable.wide_arm_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -1307,7 +1306,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize9.setImageResource(R.drawable.hindu_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -1337,7 +1336,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -1358,7 +1357,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.incline_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -1379,7 +1378,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.knee_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -1400,7 +1399,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -1421,7 +1420,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.wide_arm_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -1442,7 +1441,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.incline_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -1462,7 +1461,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.box_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -1482,7 +1481,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.wide_arm_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -1503,7 +1502,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.hindu_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -1537,8 +1536,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==2){
                                 textView.setText("JUMPING JACKS");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -1546,7 +1544,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.jumping_jacks);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -1567,7 +1565,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.incline_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -1588,7 +1586,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.knee_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -1609,7 +1607,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -1630,7 +1628,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.wide_arm_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -1651,7 +1649,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);
+                                dilogexcersize6.setImageResource(R.drawable.incline_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -1672,7 +1670,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.box_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -1692,7 +1690,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.wide_arm_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -1713,7 +1711,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.hindu_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -1771,25 +1769,25 @@ public class DitalsActivity extends AppCompatActivity {
             //.makeText(this, "ARM BEGINNER", //.LENGTH_SHORT).show();
 
             final MyListDataDitails[] myListData = new MyListDataDitails[] {
-                    new MyListDataDitails("ARM RAISES","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE ARM RAISES","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("ARM CIRCLES","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("TRICEPS DIPS","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("DIAMOND PUSH-UPS","x6",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("JUMPING JACKS","x30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("ARM CIRCLES","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("LEG BARBELL CURL LEFT","x8",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("LEG BARBELL CURL RIGHT","x8",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CHEST PRESS PLUSE","x15",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("DIAGONAL PLANK","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PUNCHES","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("PUSH-UPS","x10",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("INCHWORKMS","x8",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("WALL PUSH-UPS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("STANDING BICEPS STRETCH LEFT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("STANDNG BICEPS STRETCH RIGHT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("TRICEPS STRETCH LEFT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("TRICEPS STRETCH RIGHT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ARM RAISES","00:30",R.drawable.arm_raises,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE ARM RAISES","00:30",R.drawable.side_arm_raises,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ARM CIRCLES","00:30",R.drawable.arm_circles,R.drawable.gym_header_image2),
+                    new MyListDataDitails("TRICEPS DIPS","x10",R.drawable.triceps_dips,R.drawable.gym_header_image2),
+                    new MyListDataDitails("DIAMOND PUSH-UPS","x6",R.drawable.diamond_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("JUMPING JACKS","x30",R.drawable.jumping_jacks,R.drawable.gym_header_image2),
+                    new MyListDataDitails("ARM CIRCLES","00:30",R.drawable.arm_circles,R.drawable.gym_header_image2),
+                    new MyListDataDitails("LEG BARBELL CURL LEFT","x8",R.drawable.leg_barbell_curl_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("LEG BARBELL CURL RIGHT","x8",R.drawable.leg_barbell_curl_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CHEST PRESS PLUSE","x15",R.drawable.chest_press_pulse,R.drawable.gym_header_image2),
+                    new MyListDataDitails("DIAGONAL PLANK","x10",R.drawable.diagonal_plank,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PUNCHES","00:30",R.drawable.punches,R.drawable.gym_header_image2),
+                    new MyListDataDitails("PUSH-UPS","x10",R.drawable.pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("INCHWORKMS","x8",R.drawable.inchworms,R.drawable.gym_header_image2),
+                    new MyListDataDitails("WALL PUSH-UPS","x12",R.drawable.wall_pushups,R.drawable.gym_header_image2),
+                    new MyListDataDitails("STANDING BICEPS STRETCH LEFT","00:30",R.drawable.standing_bicpes_stretch_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("STANDNG BICEPS STRETCH RIGHT","00:30",R.drawable.standing_bicpes_stretch_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("TRICEPS STRETCH LEFT","00:30",R.drawable.triceps_stretch_left,R.drawable.gym_header_image2),
+                        new MyListDataDitails("TRICEPS STRETCH RIGHT","00:30",R.drawable.triceps_stretch_right,R.drawable.gym_header_image2),
 
             };
 
@@ -1830,56 +1828,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -1887,56 +1885,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout12 = dialog.findViewById(R.id.bigreletiv12);
                     final TextView textView12 = dialog.findViewById(R.id.dilog_title12);
                     final TextView content12 = dialog.findViewById(R.id.ditail_content12);
                     final ImageView dilogvideo12 = dialog.findViewById(R.id.dilog_video_btn12);
-                    final ImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
+                    final GifImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
                     dilogexcersize12.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout13 = dialog.findViewById(R.id.bigreletiv13);
                     final TextView textView13 = dialog.findViewById(R.id.dilog_title13);
                     final TextView content13 = dialog.findViewById(R.id.ditail_content13);
                     final ImageView dilogvideo13 = dialog.findViewById(R.id.dilog_video_btn13);
-                    final ImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
+                    final GifImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
                     dilogexcersize13.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout14 = dialog.findViewById(R.id.bigreletiv14);
                     final TextView textView14 = dialog.findViewById(R.id.dilog_title14);
                     final TextView content14 = dialog.findViewById(R.id.ditail_content14);
                     final ImageView dilogvideo14 = dialog.findViewById(R.id.dilog_video_btn14);
-                    final ImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
+                    final GifImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
                     dilogexcersize14.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout15 = dialog.findViewById(R.id.bigreletiv15);
                     final TextView textView15 = dialog.findViewById(R.id.dilog_title15);
                     final TextView content15 = dialog.findViewById(R.id.ditail_content15);
                     final ImageView dilogvideo15 = dialog.findViewById(R.id.dilog_video_btn15);
-                    final ImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
+                    final GifImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
                     dilogexcersize15.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout16 = dialog.findViewById(R.id.bigreletiv16);
                     final TextView textView16 = dialog.findViewById(R.id.dilog_title16);
                     final TextView content16 = dialog.findViewById(R.id.ditail_content16);
                     final ImageView dilogvideo16 = dialog.findViewById(R.id.dilog_video_btn16);
-                    final ImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
+                    final GifImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
                     dilogexcersize16.getLayoutParams().height = 300;
 
 
@@ -1944,21 +1942,21 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView17 = dialog.findViewById(R.id.dilog_title17);
                     final TextView content17 = dialog.findViewById(R.id.ditail_content17);
                     final ImageView dilogvideo17 = dialog.findViewById(R.id.dilog_video_btn17);
-                    final ImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
+                    final GifImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
                     dilogexcersize17.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout18 = dialog.findViewById(R.id.bigreletiv18);
                     final TextView textView18 = dialog.findViewById(R.id.dilog_title18);
                     final TextView content18 = dialog.findViewById(R.id.ditail_content18);
                     final ImageView dilogvideo18 = dialog.findViewById(R.id.dilog_video_btn18);
-                    final ImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
+                    final GifImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
                     dilogexcersize18.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout19 = dialog.findViewById(R.id.bigreletiv19);
                     final TextView textView19 = dialog.findViewById(R.id.dilog_title19);
                     final TextView content19 = dialog.findViewById(R.id.ditail_content19);
                     final ImageView dilogvideo19 = dialog.findViewById(R.id.dilog_video_btn19);
-                    final ImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
+                    final GifImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
                     dilogexcersize19.getLayoutParams().height = 300;
 
 
@@ -1966,8 +1964,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                     if (count[0]==1){
                         textView.setText("ARM RAISES");
-                        content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                "and keep your left leg straight, then quickly switch from one leg to the other.");
+                        content.setText("");
                         dilogvideo.setImageResource(R.drawable.play);
                         dilogvideo.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -1975,7 +1972,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                        dilogexcersize.setImageResource(R.drawable.arm_raises);
                         relativeLayout.setVisibility(View.VISIBLE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2006,7 +2003,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                        dilogexcersize2.setImageResource(R.drawable.side_arm_raises);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2037,7 +2034,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                        dilogexcersize3.setImageResource(R.drawable.arm_circles);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.VISIBLE);
@@ -2068,7 +2065,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                        dilogexcersize4.setImageResource(R.drawable.triceps_dips);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -2099,7 +2096,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                        dilogexcersize5.setImageResource(R.drawable.diamond_pushups);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -2130,7 +2127,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize6.setImageResource(R.drawable.jumping_jacks);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2160,7 +2157,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize7.setImageResource(R.drawable.arm_circles);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2190,7 +2187,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize8.setImageResource(R.drawable.leg_barbell_curl_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2221,7 +2218,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize9.setImageResource(R.drawable.leg_barbell_curl_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2253,7 +2250,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize10.setImageResource(R.drawable.chest_press_pulse);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2286,7 +2283,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize11.setImageResource(R.drawable.diagonal_plank);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2319,7 +2316,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize12.setImageResource(R.drawable.punches);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2352,7 +2349,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize13.setImageResource(R.drawable.pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2385,7 +2382,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize14.setImageResource(R.drawable.inchworms);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2418,7 +2415,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize15.setImageResource(R.drawable.wall_pushups);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2451,7 +2448,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize16.setImageResource(R.drawable.gym_header_image6);
+                        dilogexcersize16.setImageResource(R.drawable.standing_bicpes_stretch_left);
                         relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
@@ -2485,7 +2482,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize17.setImageResource(R.drawable.standing_bicpes_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2518,7 +2515,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize18.setImageResource(R.drawable.triceps_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2551,7 +2548,7 @@ public class DitalsActivity extends AppCompatActivity {
                                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                             }
                         });
-                        dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                        dilogexcersize19.setImageResource(R.drawable.triceps_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                         relativeLayout1.setVisibility(View.GONE);
                         relativeLayout2.setVisibility(View.GONE);
                         relativeLayout3.setVisibility(View.GONE);
@@ -2584,8 +2581,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==0){
                                 textView.setText("ARM RAISES");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -2593,7 +2589,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.arm_raises);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -2624,7 +2620,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.side_arm_raises);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -2655,7 +2651,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.arm_circles);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -2686,7 +2682,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.triceps_dips);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -2717,7 +2713,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.diamond_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -2748,7 +2744,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.jumping_jacks);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -2778,7 +2774,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.arm_circles);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -2808,7 +2804,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.leg_barbell_curl_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -2839,7 +2835,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.leg_barbell_curl_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -2871,7 +2867,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.chest_press_pulse);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -2904,7 +2900,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.diagonal_plank);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -2937,7 +2933,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.punches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -2970,7 +2966,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3003,7 +2999,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.inchworms);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3036,7 +3032,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.wall_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3069,7 +3065,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize16.setImageResource(R.drawable.standing_bicpes_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3102,7 +3098,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.standing_bicpes_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3135,7 +3131,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize18.setImageResource(R.drawable.triceps_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3168,7 +3164,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize19.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize19.setImageResource(R.drawable.triceps_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3216,8 +3212,7 @@ public class DitalsActivity extends AppCompatActivity {
 
                             if (count[0]==2){
                                 textView.setText("ARM RAISES");
-                                content.setText("Start in the push-up position. Bend your right knee towards your chest " +
-                                        "and keep your left leg straight, then quickly switch from one leg to the other.");
+                                content.setText("");
                                 dilogvideo.setImageResource(R.drawable.play);
                                 dilogvideo.setOnClickListener(new View.OnClickListener() {
                                     @Override
@@ -3225,7 +3220,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize.setImageResource(R.drawable.gym_header_image);
+                                dilogexcersize.setImageResource(R.drawable.arm_raises);
                                 relativeLayout.setVisibility(View.VISIBLE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3256,7 +3251,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize2.setImageResource(R.drawable.gym_header_image2);
+                                dilogexcersize2.setImageResource(R.drawable.side_arm_raises);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3287,7 +3282,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize3.setImageResource(R.drawable.gym_header_image3);
+                                dilogexcersize3.setImageResource(R.drawable.arm_circles);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.VISIBLE);
@@ -3318,7 +3313,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize4.setImageResource(R.drawable.gym_header_image4);
+                                dilogexcersize4.setImageResource(R.drawable.triceps_dips);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -3349,7 +3344,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize5.setImageResource(R.drawable.gym_header_image1);
+                                dilogexcersize5.setImageResource(R.drawable.diamond_pushups);
                                 relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
@@ -3380,7 +3375,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize6.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize6.setImageResource(R.drawable.jumping_jacks);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3410,7 +3405,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize7.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize7.setImageResource(R.drawable.arm_circles);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3440,7 +3435,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize8.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize8.setImageResource(R.drawable.leg_barbell_curl_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3471,7 +3466,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize9.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize9.setImageResource(R.drawable.leg_barbell_curl_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3503,7 +3498,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize10.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize10.setImageResource(R.drawable.chest_press_pulse);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3536,7 +3531,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize11.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize11.setImageResource(R.drawable.diagonal_plank);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3569,7 +3564,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize12.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize12.setImageResource(R.drawable.punches);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3602,7 +3597,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize13.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize13.setImageResource(R.drawable.pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3635,7 +3630,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize14.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize14.setImageResource(R.drawable.inchworms);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3668,7 +3663,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize15.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize15.setImageResource(R.drawable.wall_pushups);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3701,7 +3696,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize16.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize16.setImageResource(R.drawable.standing_bicpes_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3734,7 +3729,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize17.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize17.setImageResource(R.drawable.standing_bicpes_stretch_right);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3767,7 +3762,7 @@ public class DitalsActivity extends AppCompatActivity {
                                         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.youtube.com")));
                                     }
                                 });
-                                dilogexcersize18.setImageResource(R.drawable.gym_header_image6);                        relativeLayout.setVisibility(View.GONE);
+                                dilogexcersize18.setImageResource(R.drawable.triceps_stretch_left);                        relativeLayout.setVisibility(View.GONE);
                                 relativeLayout1.setVisibility(View.GONE);
                                 relativeLayout2.setVisibility(View.GONE);
                                 relativeLayout3.setVisibility(View.GONE);
@@ -3823,28 +3818,28 @@ public class DitalsActivity extends AppCompatActivity {
 
 
             final MyListDataDitails[] myListData = new MyListDataDitails[] {
-                    new MyListDataDitails("SIDE HOP","x30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SQUATS","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE-LYING LEG LIFT LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE-LYING LEG LIFT RIGHT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE-LYING LEG LIFT LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SIDE-LYING LEG LIFT RIGHT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("BACKWARD LUNGE","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("BACKWARD LUNGE","x14",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("DONKEY KICKS LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("DONKEY KICKS RIGHT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("DONKEY KICKS LEFT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("DONKEY KICKS RIGHT","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("LEFT QUAD STRETCH WITH WALL","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("RIGHT QUAD STRETCH WITH WALL","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("KNEE TO CHEST STRETCH LEFT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("KNEE TO CHEST STRETCH RIGHT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("WALL CALF RAISES","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SUMO SQUAT CALF RAISES WITH WALL","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("WALL CALF RAISES","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("SUMO SQUAT CALF RAISES WITH WALL","x12",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CALF STRETCH LEFT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
-                    new MyListDataDitails("CALF STRETCH RIGHT","00:30",R.drawable.gym_header_image3,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE HOP","x30",R.drawable.side_hop,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SQUATS","x12",R.drawable.squats,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE-LYING LEG LIFT LEFT","x12",R.drawable.side_lying_leg_lift_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE-LYING LEG LIFT RIGHT","x12",R.drawable.side_lying_leg_lift_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE-LYING LEG LIFT LEFT","x12",R.drawable.side_lying_leg_lift_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SIDE-LYING LEG LIFT RIGHT","x12",R.drawable.side_lying_leg_lift_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("BACKWARD LUNGE","x14",R.drawable.backward_lunge,R.drawable.gym_header_image2),
+                    new MyListDataDitails("BACKWARD LUNGE","x14",R.drawable.backward_lunge,R.drawable.gym_header_image2),
+                    new MyListDataDitails("DONKEY KICKS LEFT","x12",R.drawable.donkey_kicks_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("DONKEY KICKS RIGHT","x12",R.drawable.donkey_kicks_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("DONKEY KICKS LEFT","x12",R.drawable.donkey_kicks_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("DONKEY KICKS RIGHT","x12",R.drawable.donkey_kicks_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("LEFT QUAD STRETCH WITH WALL","00:30",R.drawable.left_quad_stretch_with_wall,R.drawable.gym_header_image2),
+                    new MyListDataDitails("RIGHT QUAD STRETCH WITH WALL","00:30",R.drawable.right_quad_stretch_with_wall,R.drawable.gym_header_image2),
+                    new MyListDataDitails("KNEE TO CHEST STRETCH LEFT","00:30",R.drawable.knee_to_chest_stretch_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("KNEE TO CHEST STRETCH RIGHT","00:30",R.drawable.knee_to_chest_stretch_right,R.drawable.gym_header_image2),
+                    new MyListDataDitails("WALL CALF RAISES","x12",R.drawable.wall_calf_raises,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SUMO SQUAT CALF RAISES WITH WALL","x12",R.drawable.sumo_squat_calf_raises_with_wall,R.drawable.gym_header_image2),
+                    new MyListDataDitails("WALL CALF RAISES","x12",R.drawable.wall_calf_raises,R.drawable.gym_header_image2),
+                    new MyListDataDitails("SUMO SQUAT CALF RAISES WITH WALL","x12",R.drawable.sumo_squat_calf_raises_with_wall,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CALF STRETCH LEFT","00:30",R.drawable.calf_stretch_left,R.drawable.gym_header_image2),
+                    new MyListDataDitails("CALF STRETCH RIGHT","00:30",R.drawable.calf_stretch_right,R.drawable.gym_header_image2),
 
             };
 
@@ -3885,56 +3880,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -3942,56 +3937,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout12 = dialog.findViewById(R.id.bigreletiv12);
                     final TextView textView12 = dialog.findViewById(R.id.dilog_title12);
                     final TextView content12 = dialog.findViewById(R.id.ditail_content12);
                     final ImageView dilogvideo12 = dialog.findViewById(R.id.dilog_video_btn12);
-                    final ImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
+                    final GifImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
                     dilogexcersize12.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout13 = dialog.findViewById(R.id.bigreletiv13);
                     final TextView textView13 = dialog.findViewById(R.id.dilog_title13);
                     final TextView content13 = dialog.findViewById(R.id.ditail_content13);
                     final ImageView dilogvideo13 = dialog.findViewById(R.id.dilog_video_btn13);
-                    final ImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
+                    final GifImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
                     dilogexcersize13.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout14 = dialog.findViewById(R.id.bigreletiv14);
                     final TextView textView14 = dialog.findViewById(R.id.dilog_title14);
                     final TextView content14 = dialog.findViewById(R.id.ditail_content14);
                     final ImageView dilogvideo14 = dialog.findViewById(R.id.dilog_video_btn14);
-                    final ImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
+                    final GifImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
                     dilogexcersize14.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout15 = dialog.findViewById(R.id.bigreletiv15);
                     final TextView textView15 = dialog.findViewById(R.id.dilog_title15);
                     final TextView content15 = dialog.findViewById(R.id.ditail_content15);
                     final ImageView dilogvideo15 = dialog.findViewById(R.id.dilog_video_btn15);
-                    final ImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
+                    final GifImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
                     dilogexcersize15.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout16 = dialog.findViewById(R.id.bigreletiv16);
                     final TextView textView16 = dialog.findViewById(R.id.dilog_title16);
                     final TextView content16 = dialog.findViewById(R.id.ditail_content16);
                     final ImageView dilogvideo16 = dialog.findViewById(R.id.dilog_video_btn16);
-                    final ImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
+                    final GifImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
                     dilogexcersize16.getLayoutParams().height = 300;
 
 
@@ -3999,42 +3994,42 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView17 = dialog.findViewById(R.id.dilog_title17);
                     final TextView content17 = dialog.findViewById(R.id.ditail_content17);
                     final ImageView dilogvideo17 = dialog.findViewById(R.id.dilog_video_btn17);
-                    final ImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
+                    final GifImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
                     dilogexcersize17.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout18 = dialog.findViewById(R.id.bigreletiv18);
                     final TextView textView18 = dialog.findViewById(R.id.dilog_title18);
                     final TextView content18 = dialog.findViewById(R.id.ditail_content18);
                     final ImageView dilogvideo18 = dialog.findViewById(R.id.dilog_video_btn18);
-                    final ImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
+                    final GifImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
                     dilogexcersize18.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout19 = dialog.findViewById(R.id.bigreletiv19);
                     final TextView textView19 = dialog.findViewById(R.id.dilog_title19);
                     final TextView content19 = dialog.findViewById(R.id.ditail_content19);
                     final ImageView dilogvideo19 = dialog.findViewById(R.id.dilog_video_btn19);
-                    final ImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
+                    final GifImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
                     dilogexcersize19.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout20 = dialog.findViewById(R.id.bigreletiv20);
                     final TextView textView20 = dialog.findViewById(R.id.dilog_title20);
                     final TextView content20 = dialog.findViewById(R.id.ditail_content20);
                     final ImageView dilogvideo20 = dialog.findViewById(R.id.dilog_video_btn20);
-                    final ImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
+                    final GifImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
                     dilogexcersize20.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout21 = dialog.findViewById(R.id.bigreletiv21);
                     final TextView textView21 = dialog.findViewById(R.id.dilog_title21);
                     final TextView content21 = dialog.findViewById(R.id.ditail_content21);
                     final ImageView dilogvideo21 = dialog.findViewById(R.id.dilog_video_btn21);
-                    final ImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
+                    final GifImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
                     dilogexcersize21.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout22 = dialog.findViewById(R.id.bigreletiv22);
                     final TextView textView22 = dialog.findViewById(R.id.dilog_title22);
                     final TextView content22 = dialog.findViewById(R.id.ditail_content22);
                     final ImageView dilogvideo22 = dialog.findViewById(R.id.dilog_video_btn22);
-                    final ImageView dilogexcersize22 = dialog.findViewById(R.id.dilog_excersize_image22);
+                    final GifImageView dilogexcersize22 = dialog.findViewById(R.id.dilog_excersize_image22);
                     dilogexcersize22.getLayoutParams().height = 300;
 
 
@@ -6460,56 +6455,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -6517,56 +6512,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout12 = dialog.findViewById(R.id.bigreletiv12);
                     final TextView textView12 = dialog.findViewById(R.id.dilog_title12);
                     final TextView content12 = dialog.findViewById(R.id.ditail_content12);
                     final ImageView dilogvideo12 = dialog.findViewById(R.id.dilog_video_btn12);
-                    final ImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
+                    final GifImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
                     dilogexcersize12.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout13 = dialog.findViewById(R.id.bigreletiv13);
                     final TextView textView13 = dialog.findViewById(R.id.dilog_title13);
                     final TextView content13 = dialog.findViewById(R.id.ditail_content13);
                     final ImageView dilogvideo13 = dialog.findViewById(R.id.dilog_video_btn13);
-                    final ImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
+                    final GifImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
                     dilogexcersize13.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout14 = dialog.findViewById(R.id.bigreletiv14);
                     final TextView textView14 = dialog.findViewById(R.id.dilog_title14);
                     final TextView content14 = dialog.findViewById(R.id.ditail_content14);
                     final ImageView dilogvideo14 = dialog.findViewById(R.id.dilog_video_btn14);
-                    final ImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
+                    final GifImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
                     dilogexcersize14.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout15 = dialog.findViewById(R.id.bigreletiv15);
                     final TextView textView15 = dialog.findViewById(R.id.dilog_title15);
                     final TextView content15 = dialog.findViewById(R.id.ditail_content15);
                     final ImageView dilogvideo15 = dialog.findViewById(R.id.dilog_video_btn15);
-                    final ImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
+                    final GifImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
                     dilogexcersize15.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout16 = dialog.findViewById(R.id.bigreletiv16);
                     final TextView textView16 = dialog.findViewById(R.id.dilog_title16);
                     final TextView content16 = dialog.findViewById(R.id.ditail_content16);
                     final ImageView dilogvideo16 = dialog.findViewById(R.id.dilog_video_btn16);
-                    final ImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
+                    final GifImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
                     dilogexcersize16.getLayoutParams().height = 300;
 
 
@@ -6574,7 +6569,7 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView17 = dialog.findViewById(R.id.dilog_title17);
                     final TextView content17 = dialog.findViewById(R.id.ditail_content17);
                     final ImageView dilogvideo17 = dialog.findViewById(R.id.dilog_video_btn17);
-                    final ImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
+                    final GifImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
                     dilogexcersize17.getLayoutParams().height = 300;
 
 
@@ -8208,56 +8203,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -8265,56 +8260,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout12 = dialog.findViewById(R.id.bigreletiv12);
                     final TextView textView12 = dialog.findViewById(R.id.dilog_title12);
                     final TextView content12 = dialog.findViewById(R.id.ditail_content12);
                     final ImageView dilogvideo12 = dialog.findViewById(R.id.dilog_video_btn12);
-                    final ImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
+                    final GifImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
                     dilogexcersize12.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout13 = dialog.findViewById(R.id.bigreletiv13);
                     final TextView textView13 = dialog.findViewById(R.id.dilog_title13);
                     final TextView content13 = dialog.findViewById(R.id.ditail_content13);
                     final ImageView dilogvideo13 = dialog.findViewById(R.id.dilog_video_btn13);
-                    final ImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
+                    final GifImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
                     dilogexcersize13.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout14 = dialog.findViewById(R.id.bigreletiv14);
                     final TextView textView14 = dialog.findViewById(R.id.dilog_title14);
                     final TextView content14 = dialog.findViewById(R.id.ditail_content14);
                     final ImageView dilogvideo14 = dialog.findViewById(R.id.dilog_video_btn14);
-                    final ImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
+                    final GifImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
                     dilogexcersize14.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout15 = dialog.findViewById(R.id.bigreletiv15);
                     final TextView textView15 = dialog.findViewById(R.id.dilog_title15);
                     final TextView content15 = dialog.findViewById(R.id.ditail_content15);
                     final ImageView dilogvideo15 = dialog.findViewById(R.id.dilog_video_btn15);
-                    final ImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
+                    final GifImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
                     dilogexcersize15.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout16 = dialog.findViewById(R.id.bigreletiv16);
                     final TextView textView16 = dialog.findViewById(R.id.dilog_title16);
                     final TextView content16 = dialog.findViewById(R.id.ditail_content16);
                     final ImageView dilogvideo16 = dialog.findViewById(R.id.dilog_video_btn16);
-                    final ImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
+                    final GifImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
                     dilogexcersize16.getLayoutParams().height = 300;
 
 
@@ -8322,35 +8317,35 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView17 = dialog.findViewById(R.id.dilog_title17);
                     final TextView content17 = dialog.findViewById(R.id.ditail_content17);
                     final ImageView dilogvideo17 = dialog.findViewById(R.id.dilog_video_btn17);
-                    final ImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
+                    final GifImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
                     dilogexcersize17.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout18 = dialog.findViewById(R.id.bigreletiv18);
                     final TextView textView18 = dialog.findViewById(R.id.dilog_title18);
                     final TextView content18 = dialog.findViewById(R.id.ditail_content18);
                     final ImageView dilogvideo18 = dialog.findViewById(R.id.dilog_video_btn18);
-                    final ImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
+                    final GifImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
                     dilogexcersize18.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout19 = dialog.findViewById(R.id.bigreletiv19);
                     final TextView textView19 = dialog.findViewById(R.id.dilog_title19);
                     final TextView content19 = dialog.findViewById(R.id.ditail_content19);
                     final ImageView dilogvideo19 = dialog.findViewById(R.id.dilog_video_btn19);
-                    final ImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
+                    final GifImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
                     dilogexcersize19.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout20 = dialog.findViewById(R.id.bigreletiv20);
                     final TextView textView20 = dialog.findViewById(R.id.dilog_title20);
                     final TextView content20 = dialog.findViewById(R.id.ditail_content20);
                     final ImageView dilogvideo20 = dialog.findViewById(R.id.dilog_video_btn20);
-                    final ImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
+                    final GifImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
                     dilogexcersize20.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout21 = dialog.findViewById(R.id.bigreletiv21);
                     final TextView textView21 = dialog.findViewById(R.id.dilog_title21);
                     final TextView content21 = dialog.findViewById(R.id.ditail_content21);
                     final ImageView dilogvideo21 = dialog.findViewById(R.id.dilog_video_btn21);
-                    final ImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
+                    final GifImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
                     dilogexcersize21.getLayoutParams().height = 300;
 
 
@@ -10597,56 +10592,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -10654,42 +10649,42 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout12 = dialog.findViewById(R.id.bigreletiv12);
                     final TextView textView12 = dialog.findViewById(R.id.dilog_title12);
                     final TextView content12 = dialog.findViewById(R.id.ditail_content12);
                     final ImageView dilogvideo12 = dialog.findViewById(R.id.dilog_video_btn12);
-                    final ImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
+                    final GifImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
                     dilogexcersize12.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout13 = dialog.findViewById(R.id.bigreletiv13);
                     final TextView textView13 = dialog.findViewById(R.id.dilog_title13);
                     final TextView content13 = dialog.findViewById(R.id.ditail_content13);
                     final ImageView dilogvideo13 = dialog.findViewById(R.id.dilog_video_btn13);
-                    final ImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
+                    final GifImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
                     dilogexcersize13.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout14 = dialog.findViewById(R.id.bigreletiv14);
                     final TextView textView14 = dialog.findViewById(R.id.dilog_title14);
                     final TextView content14 = dialog.findViewById(R.id.ditail_content14);
                     final ImageView dilogvideo14 = dialog.findViewById(R.id.dilog_video_btn14);
-                    final ImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
+                    final GifImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
                     dilogexcersize14.getLayoutParams().height = 300;
 
                     if (count[0]==1){
@@ -11925,56 +11920,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -11982,56 +11977,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout12 = dialog.findViewById(R.id.bigreletiv12);
                     final TextView textView12 = dialog.findViewById(R.id.dilog_title12);
                     final TextView content12 = dialog.findViewById(R.id.ditail_content12);
                     final ImageView dilogvideo12 = dialog.findViewById(R.id.dilog_video_btn12);
-                    final ImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
+                    final GifImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
                     dilogexcersize12.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout13 = dialog.findViewById(R.id.bigreletiv13);
                     final TextView textView13 = dialog.findViewById(R.id.dilog_title13);
                     final TextView content13 = dialog.findViewById(R.id.ditail_content13);
                     final ImageView dilogvideo13 = dialog.findViewById(R.id.dilog_video_btn13);
-                    final ImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
+                    final GifImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
                     dilogexcersize13.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout14 = dialog.findViewById(R.id.bigreletiv14);
                     final TextView textView14 = dialog.findViewById(R.id.dilog_title14);
                     final TextView content14 = dialog.findViewById(R.id.ditail_content14);
                     final ImageView dilogvideo14 = dialog.findViewById(R.id.dilog_video_btn14);
-                    final ImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
+                    final GifImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
                     dilogexcersize14.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout15 = dialog.findViewById(R.id.bigreletiv15);
                     final TextView textView15 = dialog.findViewById(R.id.dilog_title15);
                     final TextView content15 = dialog.findViewById(R.id.ditail_content15);
                     final ImageView dilogvideo15 = dialog.findViewById(R.id.dilog_video_btn15);
-                    final ImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
+                    final GifImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
                     dilogexcersize15.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout16 = dialog.findViewById(R.id.bigreletiv16);
                     final TextView textView16 = dialog.findViewById(R.id.dilog_title16);
                     final TextView content16 = dialog.findViewById(R.id.ditail_content16);
                     final ImageView dilogvideo16 = dialog.findViewById(R.id.dilog_video_btn16);
-                    final ImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
+                    final GifImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
                     dilogexcersize16.getLayoutParams().height = 300;
 
 
@@ -12039,63 +12034,63 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView17 = dialog.findViewById(R.id.dilog_title17);
                     final TextView content17 = dialog.findViewById(R.id.ditail_content17);
                     final ImageView dilogvideo17 = dialog.findViewById(R.id.dilog_video_btn17);
-                    final ImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
+                    final GifImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
                     dilogexcersize17.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout18 = dialog.findViewById(R.id.bigreletiv18);
                     final TextView textView18 = dialog.findViewById(R.id.dilog_title18);
                     final TextView content18 = dialog.findViewById(R.id.ditail_content18);
                     final ImageView dilogvideo18 = dialog.findViewById(R.id.dilog_video_btn18);
-                    final ImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
+                    final GifImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
                     dilogexcersize18.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout19 = dialog.findViewById(R.id.bigreletiv19);
                     final TextView textView19 = dialog.findViewById(R.id.dilog_title19);
                     final TextView content19 = dialog.findViewById(R.id.ditail_content19);
                     final ImageView dilogvideo19 = dialog.findViewById(R.id.dilog_video_btn19);
-                    final ImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
+                    final GifImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
                     dilogexcersize19.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout20 = dialog.findViewById(R.id.bigreletiv20);
                     final TextView textView20 = dialog.findViewById(R.id.dilog_title20);
                     final TextView content20 = dialog.findViewById(R.id.ditail_content20);
                     final ImageView dilogvideo20 = dialog.findViewById(R.id.dilog_video_btn20);
-                    final ImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
+                    final GifImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
                     dilogexcersize20.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout21 = dialog.findViewById(R.id.bigreletiv21);
                     final TextView textView21 = dialog.findViewById(R.id.dilog_title21);
                     final TextView content21 = dialog.findViewById(R.id.ditail_content21);
                     final ImageView dilogvideo21 = dialog.findViewById(R.id.dilog_video_btn21);
-                    final ImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
+                    final GifImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
                     dilogexcersize21.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout22 = dialog.findViewById(R.id.bigreletiv22);
                     final TextView textView22 = dialog.findViewById(R.id.dilog_title22);
                     final TextView content22 = dialog.findViewById(R.id.ditail_content22);
                     final ImageView dilogvideo22 = dialog.findViewById(R.id.dilog_video_btn22);
-                    final ImageView dilogexcersize22 = dialog.findViewById(R.id.dilog_excersize_image22);
+                    final GifImageView dilogexcersize22 = dialog.findViewById(R.id.dilog_excersize_image22);
                     dilogexcersize22.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout23 = dialog.findViewById(R.id.bigreletiv23);
                     final TextView textView23 = dialog.findViewById(R.id.dilog_title23);
                     final TextView content23 = dialog.findViewById(R.id.ditail_content23);
                     final ImageView dilogvideo23 = dialog.findViewById(R.id.dilog_video_btn23);
-                    final ImageView dilogexcersize23 = dialog.findViewById(R.id.dilog_excersize_image23);
+                    final GifImageView dilogexcersize23 = dialog.findViewById(R.id.dilog_excersize_image23);
                     dilogexcersize23.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout24 = dialog.findViewById(R.id.bigreletiv24);
                     final TextView textView24 = dialog.findViewById(R.id.dilog_title24);
                     final TextView content24 = dialog.findViewById(R.id.ditail_content24);
                     final ImageView dilogvideo24 = dialog.findViewById(R.id.dilog_video_btn24);
-                    final ImageView dilogexcersize24 = dialog.findViewById(R.id.dilog_excersize_image24);
+                    final GifImageView dilogexcersize24 = dialog.findViewById(R.id.dilog_excersize_image24);
                     dilogexcersize24.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout25 = dialog.findViewById(R.id.bigreletiv25);
                     final TextView textView25 = dialog.findViewById(R.id.dilog_title25);
                     final TextView content25 = dialog.findViewById(R.id.ditail_content25);
                     final ImageView dilogvideo25 = dialog.findViewById(R.id.dilog_video_btn25);
-                    final ImageView dilogexcersize25 = dialog.findViewById(R.id.dilog_excersize_image25);
+                    final GifImageView dilogexcersize25 = dialog.findViewById(R.id.dilog_excersize_image25);
                     dilogexcersize25.getLayoutParams().height = 300;
 
 
@@ -15084,56 +15079,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -15141,56 +15136,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout12 = dialog.findViewById(R.id.bigreletiv12);
                     final TextView textView12 = dialog.findViewById(R.id.dilog_title12);
                     final TextView content12 = dialog.findViewById(R.id.ditail_content12);
                     final ImageView dilogvideo12 = dialog.findViewById(R.id.dilog_video_btn12);
-                    final ImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
+                    final GifImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
                     dilogexcersize12.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout13 = dialog.findViewById(R.id.bigreletiv13);
                     final TextView textView13 = dialog.findViewById(R.id.dilog_title13);
                     final TextView content13 = dialog.findViewById(R.id.ditail_content13);
                     final ImageView dilogvideo13 = dialog.findViewById(R.id.dilog_video_btn13);
-                    final ImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
+                    final GifImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
                     dilogexcersize13.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout14 = dialog.findViewById(R.id.bigreletiv14);
                     final TextView textView14 = dialog.findViewById(R.id.dilog_title14);
                     final TextView content14 = dialog.findViewById(R.id.ditail_content14);
                     final ImageView dilogvideo14 = dialog.findViewById(R.id.dilog_video_btn14);
-                    final ImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
+                    final GifImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
                     dilogexcersize14.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout15 = dialog.findViewById(R.id.bigreletiv15);
                     final TextView textView15 = dialog.findViewById(R.id.dilog_title15);
                     final TextView content15 = dialog.findViewById(R.id.ditail_content15);
                     final ImageView dilogvideo15 = dialog.findViewById(R.id.dilog_video_btn15);
-                    final ImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
+                    final GifImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
                     dilogexcersize15.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout16 = dialog.findViewById(R.id.bigreletiv16);
                     final TextView textView16 = dialog.findViewById(R.id.dilog_title16);
                     final TextView content16 = dialog.findViewById(R.id.ditail_content16);
                     final ImageView dilogvideo16 = dialog.findViewById(R.id.dilog_video_btn16);
-                    final ImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
+                    final GifImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
                     dilogexcersize16.getLayoutParams().height = 300;
 
 
@@ -15198,133 +15193,133 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView17 = dialog.findViewById(R.id.dilog_title17);
                     final TextView content17 = dialog.findViewById(R.id.ditail_content17);
                     final ImageView dilogvideo17 = dialog.findViewById(R.id.dilog_video_btn17);
-                    final ImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
+                    final GifImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
                     dilogexcersize17.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout18 = dialog.findViewById(R.id.bigreletiv18);
                     final TextView textView18 = dialog.findViewById(R.id.dilog_title18);
                     final TextView content18 = dialog.findViewById(R.id.ditail_content18);
                     final ImageView dilogvideo18 = dialog.findViewById(R.id.dilog_video_btn18);
-                    final ImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
+                    final GifImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
                     dilogexcersize18.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout19 = dialog.findViewById(R.id.bigreletiv19);
                     final TextView textView19 = dialog.findViewById(R.id.dilog_title19);
                     final TextView content19 = dialog.findViewById(R.id.ditail_content19);
                     final ImageView dilogvideo19 = dialog.findViewById(R.id.dilog_video_btn19);
-                    final ImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
+                    final GifImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
                     dilogexcersize19.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout20 = dialog.findViewById(R.id.bigreletiv20);
                     final TextView textView20 = dialog.findViewById(R.id.dilog_title20);
                     final TextView content20 = dialog.findViewById(R.id.ditail_content20);
                     final ImageView dilogvideo20 = dialog.findViewById(R.id.dilog_video_btn20);
-                    final ImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
+                    final GifImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
                     dilogexcersize20.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout21 = dialog.findViewById(R.id.bigreletiv21);
                     final TextView textView21 = dialog.findViewById(R.id.dilog_title21);
                     final TextView content21 = dialog.findViewById(R.id.ditail_content21);
                     final ImageView dilogvideo21 = dialog.findViewById(R.id.dilog_video_btn21);
-                    final ImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
+                    final GifImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
                     dilogexcersize21.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout22 = dialog.findViewById(R.id.bigreletiv22);
                     final TextView textView22 = dialog.findViewById(R.id.dilog_title22);
                     final TextView content22 = dialog.findViewById(R.id.ditail_content22);
                     final ImageView dilogvideo22 = dialog.findViewById(R.id.dilog_video_btn22);
-                    final ImageView dilogexcersize22 = dialog.findViewById(R.id.dilog_excersize_image22);
+                    final GifImageView dilogexcersize22 = dialog.findViewById(R.id.dilog_excersize_image22);
                     dilogexcersize22.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout23 = dialog.findViewById(R.id.bigreletiv23);
                     final TextView textView23 = dialog.findViewById(R.id.dilog_title23);
                     final TextView content23 = dialog.findViewById(R.id.ditail_content23);
                     final ImageView dilogvideo23 = dialog.findViewById(R.id.dilog_video_btn23);
-                    final ImageView dilogexcersize23 = dialog.findViewById(R.id.dilog_excersize_image23);
+                    final GifImageView dilogexcersize23 = dialog.findViewById(R.id.dilog_excersize_image23);
                     dilogexcersize23.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout24 = dialog.findViewById(R.id.bigreletiv24);
                     final TextView textView24 = dialog.findViewById(R.id.dilog_title24);
                     final TextView content24 = dialog.findViewById(R.id.ditail_content24);
                     final ImageView dilogvideo24 = dialog.findViewById(R.id.dilog_video_btn24);
-                    final ImageView dilogexcersize24 = dialog.findViewById(R.id.dilog_excersize_image24);
+                    final GifImageView dilogexcersize24 = dialog.findViewById(R.id.dilog_excersize_image24);
                     dilogexcersize24.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout25 = dialog.findViewById(R.id.bigreletiv25);
                     final TextView textView25 = dialog.findViewById(R.id.dilog_title25);
                     final TextView content25 = dialog.findViewById(R.id.ditail_content25);
                     final ImageView dilogvideo25 = dialog.findViewById(R.id.dilog_video_btn25);
-                    final ImageView dilogexcersize25 = dialog.findViewById(R.id.dilog_excersize_image25);
+                    final GifImageView dilogexcersize25 = dialog.findViewById(R.id.dilog_excersize_image25);
                     dilogexcersize25.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout26 = dialog.findViewById(R.id.bigreletiv26);
                     final TextView textView26 = dialog.findViewById(R.id.dilog_title26);
                     final TextView content26 = dialog.findViewById(R.id.ditail_content26);
                     final ImageView dilogvideo26 = dialog.findViewById(R.id.dilog_video_btn26);
-                    final ImageView dilogexcersize26 = dialog.findViewById(R.id.dilog_excersize_image26);
+                    final GifImageView dilogexcersize26 = dialog.findViewById(R.id.dilog_excersize_image26);
                     dilogexcersize26.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout27 = dialog.findViewById(R.id.bigreletiv27);
                     final TextView textView27 = dialog.findViewById(R.id.dilog_title27);
                     final TextView content27 = dialog.findViewById(R.id.ditail_content27);
                     final ImageView dilogvideo27 = dialog.findViewById(R.id.dilog_video_btn27);
-                    final ImageView dilogexcersize27 = dialog.findViewById(R.id.dilog_excersize_image27);
+                    final GifImageView dilogexcersize27 = dialog.findViewById(R.id.dilog_excersize_image27);
                     dilogexcersize27.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout28 = dialog.findViewById(R.id.bigreletiv28);
                     final TextView textView28 = dialog.findViewById(R.id.dilog_title28);
                     final TextView content28 = dialog.findViewById(R.id.ditail_content28);
                     final ImageView dilogvideo28 = dialog.findViewById(R.id.dilog_video_btn28);
-                    final ImageView dilogexcersize28 = dialog.findViewById(R.id.dilog_excersize_image28);
+                    final GifImageView dilogexcersize28 = dialog.findViewById(R.id.dilog_excersize_image28);
                     dilogexcersize28.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout29 = dialog.findViewById(R.id.bigreletiv29);
                     final TextView textView29 = dialog.findViewById(R.id.dilog_title29);
                     final TextView content29 = dialog.findViewById(R.id.ditail_content29);
                     final ImageView dilogvideo29 = dialog.findViewById(R.id.dilog_video_btn29);
-                    final ImageView dilogexcersize29 = dialog.findViewById(R.id.dilog_excersize_image29);
+                    final GifImageView dilogexcersize29 = dialog.findViewById(R.id.dilog_excersize_image29);
                     dilogexcersize29.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout30 = dialog.findViewById(R.id.bigreletiv30);
                     final TextView textView30 = dialog.findViewById(R.id.dilog_title30);
                     final TextView content30 = dialog.findViewById(R.id.ditail_content30);
                     final ImageView dilogvideo30 = dialog.findViewById(R.id.dilog_video_btn30);
-                    final ImageView dilogexcersize30 = dialog.findViewById(R.id.dilog_excersize_image30);
+                    final GifImageView dilogexcersize30 = dialog.findViewById(R.id.dilog_excersize_image30);
                     dilogexcersize30.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout31 = dialog.findViewById(R.id.bigreletiv31);
                     final TextView textView31 = dialog.findViewById(R.id.dilog_title31);
                     final TextView content31 = dialog.findViewById(R.id.ditail_content31);
                     final ImageView dilogvideo31 = dialog.findViewById(R.id.dilog_video_btn31);
-                    final ImageView dilogexcersize31 = dialog.findViewById(R.id.dilog_excersize_image31);
+                    final GifImageView dilogexcersize31 = dialog.findViewById(R.id.dilog_excersize_image31);
                     dilogexcersize31.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout32 = dialog.findViewById(R.id.bigreletiv32);
                     final TextView textView32 = dialog.findViewById(R.id.dilog_title32);
                     final TextView content32 = dialog.findViewById(R.id.ditail_content32);
                     final ImageView dilogvideo32 = dialog.findViewById(R.id.dilog_video_btn32);
-                    final ImageView dilogexcersize32 = dialog.findViewById(R.id.dilog_excersize_image32);
+                    final GifImageView dilogexcersize32 = dialog.findViewById(R.id.dilog_excersize_image32);
                     dilogexcersize32.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout33 = dialog.findViewById(R.id.bigreletiv33);
                     final TextView textView33 = dialog.findViewById(R.id.dilog_title33);
                     final TextView content33 = dialog.findViewById(R.id.ditail_content33);
                     final ImageView dilogvideo33 = dialog.findViewById(R.id.dilog_video_btn33);
-                    final ImageView dilogexcersize33 = dialog.findViewById(R.id.dilog_excersize_image33);
+                    final GifImageView dilogexcersize33 = dialog.findViewById(R.id.dilog_excersize_image33);
                     dilogexcersize33.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout34 = dialog.findViewById(R.id.bigreletiv34);
                     final TextView textView34 = dialog.findViewById(R.id.dilog_title34);
                     final TextView content34 = dialog.findViewById(R.id.ditail_content34);
                     final ImageView dilogvideo34 = dialog.findViewById(R.id.dilog_video_btn34);
-                    final ImageView dilogexcersize34 = dialog.findViewById(R.id.dilog_excersize_image34);
+                    final GifImageView dilogexcersize34 = dialog.findViewById(R.id.dilog_excersize_image34);
                     dilogexcersize34.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout35 = dialog.findViewById(R.id.bigreletiv35);
                     final TextView textView35 = dialog.findViewById(R.id.dilog_title35);
                     final TextView content35 = dialog.findViewById(R.id.ditail_content35);
                     final ImageView dilogvideo35 = dialog.findViewById(R.id.dilog_video_btn35);
-                    final ImageView dilogexcersize35 = dialog.findViewById(R.id.dilog_excersize_image35);
+                    final GifImageView dilogexcersize35 = dialog.findViewById(R.id.dilog_excersize_image35);
                     dilogexcersize35.getLayoutParams().height = 300;
 
 
@@ -15332,7 +15327,7 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView36 = dialog.findViewById(R.id.dilog_title36);
                     final TextView content36 = dialog.findViewById(R.id.ditail_content36);
                     final ImageView dilogvideo36 = dialog.findViewById(R.id.dilog_video_btn36);
-                    final ImageView dilogexcersize36 = dialog.findViewById(R.id.dilog_excersize_image36);
+                    final GifImageView dilogexcersize36 = dialog.findViewById(R.id.dilog_excersize_image36);
                     dilogexcersize36.getLayoutParams().height = 300;
 
                     if (count[0]==1){
@@ -20766,56 +20761,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -20823,56 +20818,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout12 = dialog.findViewById(R.id.bigreletiv12);
                     final TextView textView12 = dialog.findViewById(R.id.dilog_title12);
                     final TextView content12 = dialog.findViewById(R.id.ditail_content12);
                     final ImageView dilogvideo12 = dialog.findViewById(R.id.dilog_video_btn12);
-                    final ImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
+                    final GifImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
                     dilogexcersize12.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout13 = dialog.findViewById(R.id.bigreletiv13);
                     final TextView textView13 = dialog.findViewById(R.id.dilog_title13);
                     final TextView content13 = dialog.findViewById(R.id.ditail_content13);
                     final ImageView dilogvideo13 = dialog.findViewById(R.id.dilog_video_btn13);
-                    final ImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
+                    final GifImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
                     dilogexcersize13.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout14 = dialog.findViewById(R.id.bigreletiv14);
                     final TextView textView14 = dialog.findViewById(R.id.dilog_title14);
                     final TextView content14 = dialog.findViewById(R.id.ditail_content14);
                     final ImageView dilogvideo14 = dialog.findViewById(R.id.dilog_video_btn14);
-                    final ImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
+                    final GifImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
                     dilogexcersize14.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout15 = dialog.findViewById(R.id.bigreletiv15);
                     final TextView textView15 = dialog.findViewById(R.id.dilog_title15);
                     final TextView content15 = dialog.findViewById(R.id.ditail_content15);
                     final ImageView dilogvideo15 = dialog.findViewById(R.id.dilog_video_btn15);
-                    final ImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
+                    final GifImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
                     dilogexcersize15.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout16 = dialog.findViewById(R.id.bigreletiv16);
                     final TextView textView16 = dialog.findViewById(R.id.dilog_title16);
                     final TextView content16 = dialog.findViewById(R.id.ditail_content16);
                     final ImageView dilogvideo16 = dialog.findViewById(R.id.dilog_video_btn16);
-                    final ImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
+                    final GifImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
                     dilogexcersize16.getLayoutParams().height = 300;
 
 
@@ -20880,7 +20875,7 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView17 = dialog.findViewById(R.id.dilog_title17);
                     final TextView content17 = dialog.findViewById(R.id.ditail_content17);
                     final ImageView dilogvideo17 = dialog.findViewById(R.id.dilog_video_btn17);
-                    final ImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
+                    final GifImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
                     dilogexcersize17.getLayoutParams().height = 300;
 
 
@@ -22521,56 +22516,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -22578,56 +22573,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout12 = dialog.findViewById(R.id.bigreletiv12);
                     final TextView textView12 = dialog.findViewById(R.id.dilog_title12);
                     final TextView content12 = dialog.findViewById(R.id.ditail_content12);
                     final ImageView dilogvideo12 = dialog.findViewById(R.id.dilog_video_btn12);
-                    final ImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
+                    final GifImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
                     dilogexcersize12.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout13 = dialog.findViewById(R.id.bigreletiv13);
                     final TextView textView13 = dialog.findViewById(R.id.dilog_title13);
                     final TextView content13 = dialog.findViewById(R.id.ditail_content13);
                     final ImageView dilogvideo13 = dialog.findViewById(R.id.dilog_video_btn13);
-                    final ImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
+                    final GifImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
                     dilogexcersize13.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout14 = dialog.findViewById(R.id.bigreletiv14);
                     final TextView textView14 = dialog.findViewById(R.id.dilog_title14);
                     final TextView content14 = dialog.findViewById(R.id.ditail_content14);
                     final ImageView dilogvideo14 = dialog.findViewById(R.id.dilog_video_btn14);
-                    final ImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
+                    final GifImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
                     dilogexcersize14.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout15 = dialog.findViewById(R.id.bigreletiv15);
                     final TextView textView15 = dialog.findViewById(R.id.dilog_title15);
                     final TextView content15 = dialog.findViewById(R.id.ditail_content15);
                     final ImageView dilogvideo15 = dialog.findViewById(R.id.dilog_video_btn15);
-                    final ImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
+                    final GifImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
                     dilogexcersize15.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout16 = dialog.findViewById(R.id.bigreletiv16);
                     final TextView textView16 = dialog.findViewById(R.id.dilog_title16);
                     final TextView content16 = dialog.findViewById(R.id.ditail_content16);
                     final ImageView dilogvideo16 = dialog.findViewById(R.id.dilog_video_btn16);
-                    final ImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
+                    final GifImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
                     dilogexcersize16.getLayoutParams().height = 300;
 
 
@@ -22635,35 +22630,35 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView17 = dialog.findViewById(R.id.dilog_title17);
                     final TextView content17 = dialog.findViewById(R.id.ditail_content17);
                     final ImageView dilogvideo17 = dialog.findViewById(R.id.dilog_video_btn17);
-                    final ImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
+                    final GifImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
                     dilogexcersize17.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout18 = dialog.findViewById(R.id.bigreletiv18);
                     final TextView textView18 = dialog.findViewById(R.id.dilog_title18);
                     final TextView content18 = dialog.findViewById(R.id.ditail_content18);
                     final ImageView dilogvideo18 = dialog.findViewById(R.id.dilog_video_btn18);
-                    final ImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
+                    final GifImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
                     dilogexcersize18.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout19 = dialog.findViewById(R.id.bigreletiv19);
                     final TextView textView19 = dialog.findViewById(R.id.dilog_title19);
                     final TextView content19 = dialog.findViewById(R.id.ditail_content19);
                     final ImageView dilogvideo19 = dialog.findViewById(R.id.dilog_video_btn19);
-                    final ImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
+                    final GifImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
                     dilogexcersize19.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout20 = dialog.findViewById(R.id.bigreletiv20);
                     final TextView textView20 = dialog.findViewById(R.id.dilog_title20);
                     final TextView content20 = dialog.findViewById(R.id.ditail_content20);
                     final ImageView dilogvideo20 = dialog.findViewById(R.id.dilog_video_btn20);
-                    final ImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
+                    final GifImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
                     dilogexcersize20.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout21 = dialog.findViewById(R.id.bigreletiv21);
                     final TextView textView21 = dialog.findViewById(R.id.dilog_title21);
                     final TextView content21 = dialog.findViewById(R.id.ditail_content21);
                     final ImageView dilogvideo21 = dialog.findViewById(R.id.dilog_video_btn21);
-                    final ImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
+                    final GifImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
                     dilogexcersize21.getLayoutParams().height = 300;
 
 
@@ -24908,56 +24903,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -24965,56 +24960,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout12 = dialog.findViewById(R.id.bigreletiv12);
                     final TextView textView12 = dialog.findViewById(R.id.dilog_title12);
                     final TextView content12 = dialog.findViewById(R.id.ditail_content12);
                     final ImageView dilogvideo12 = dialog.findViewById(R.id.dilog_video_btn12);
-                    final ImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
+                    final GifImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
                     dilogexcersize12.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout13 = dialog.findViewById(R.id.bigreletiv13);
                     final TextView textView13 = dialog.findViewById(R.id.dilog_title13);
                     final TextView content13 = dialog.findViewById(R.id.ditail_content13);
                     final ImageView dilogvideo13 = dialog.findViewById(R.id.dilog_video_btn13);
-                    final ImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
+                    final GifImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
                     dilogexcersize13.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout14 = dialog.findViewById(R.id.bigreletiv14);
                     final TextView textView14 = dialog.findViewById(R.id.dilog_title14);
                     final TextView content14 = dialog.findViewById(R.id.ditail_content14);
                     final ImageView dilogvideo14 = dialog.findViewById(R.id.dilog_video_btn14);
-                    final ImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
+                    final GifImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
                     dilogexcersize14.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout15 = dialog.findViewById(R.id.bigreletiv15);
                     final TextView textView15 = dialog.findViewById(R.id.dilog_title15);
                     final TextView content15 = dialog.findViewById(R.id.ditail_content15);
                     final ImageView dilogvideo15 = dialog.findViewById(R.id.dilog_video_btn15);
-                    final ImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
+                    final GifImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
                     dilogexcersize15.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout16 = dialog.findViewById(R.id.bigreletiv16);
                     final TextView textView16 = dialog.findViewById(R.id.dilog_title16);
                     final TextView content16 = dialog.findViewById(R.id.ditail_content16);
                     final ImageView dilogvideo16 = dialog.findViewById(R.id.dilog_video_btn16);
-                    final ImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
+                    final GifImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
                     dilogexcersize16.getLayoutParams().height = 300;
 
 
@@ -26522,56 +26517,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -26579,56 +26574,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout12 = dialog.findViewById(R.id.bigreletiv12);
                     final TextView textView12 = dialog.findViewById(R.id.dilog_title12);
                     final TextView content12 = dialog.findViewById(R.id.ditail_content12);
                     final ImageView dilogvideo12 = dialog.findViewById(R.id.dilog_video_btn12);
-                    final ImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
+                    final GifImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
                     dilogexcersize12.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout13 = dialog.findViewById(R.id.bigreletiv13);
                     final TextView textView13 = dialog.findViewById(R.id.dilog_title13);
                     final TextView content13 = dialog.findViewById(R.id.ditail_content13);
                     final ImageView dilogvideo13 = dialog.findViewById(R.id.dilog_video_btn13);
-                    final ImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
+                    final GifImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
                     dilogexcersize13.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout14 = dialog.findViewById(R.id.bigreletiv14);
                     final TextView textView14 = dialog.findViewById(R.id.dilog_title14);
                     final TextView content14 = dialog.findViewById(R.id.ditail_content14);
                     final ImageView dilogvideo14 = dialog.findViewById(R.id.dilog_video_btn14);
-                    final ImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
+                    final GifImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
                     dilogexcersize14.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout15 = dialog.findViewById(R.id.bigreletiv15);
                     final TextView textView15 = dialog.findViewById(R.id.dilog_title15);
                     final TextView content15 = dialog.findViewById(R.id.ditail_content15);
                     final ImageView dilogvideo15 = dialog.findViewById(R.id.dilog_video_btn15);
-                    final ImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
+                    final GifImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
                     dilogexcersize15.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout16 = dialog.findViewById(R.id.bigreletiv16);
                     final TextView textView16 = dialog.findViewById(R.id.dilog_title16);
                     final TextView content16 = dialog.findViewById(R.id.ditail_content16);
                     final ImageView dilogvideo16 = dialog.findViewById(R.id.dilog_video_btn16);
-                    final ImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
+                    final GifImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
                     dilogexcersize16.getLayoutParams().height = 300;
 
 
@@ -26636,84 +26631,84 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView17 = dialog.findViewById(R.id.dilog_title17);
                     final TextView content17 = dialog.findViewById(R.id.ditail_content17);
                     final ImageView dilogvideo17 = dialog.findViewById(R.id.dilog_video_btn17);
-                    final ImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
+                    final GifImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
                     dilogexcersize17.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout18 = dialog.findViewById(R.id.bigreletiv18);
                     final TextView textView18 = dialog.findViewById(R.id.dilog_title18);
                     final TextView content18 = dialog.findViewById(R.id.ditail_content18);
                     final ImageView dilogvideo18 = dialog.findViewById(R.id.dilog_video_btn18);
-                    final ImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
+                    final GifImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
                     dilogexcersize18.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout19 = dialog.findViewById(R.id.bigreletiv19);
                     final TextView textView19 = dialog.findViewById(R.id.dilog_title19);
                     final TextView content19 = dialog.findViewById(R.id.ditail_content19);
                     final ImageView dilogvideo19 = dialog.findViewById(R.id.dilog_video_btn19);
-                    final ImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
+                    final GifImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
                     dilogexcersize19.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout20 = dialog.findViewById(R.id.bigreletiv20);
                     final TextView textView20 = dialog.findViewById(R.id.dilog_title20);
                     final TextView content20 = dialog.findViewById(R.id.ditail_content20);
                     final ImageView dilogvideo20 = dialog.findViewById(R.id.dilog_video_btn20);
-                    final ImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
+                    final GifImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
                     dilogexcersize20.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout21 = dialog.findViewById(R.id.bigreletiv21);
                     final TextView textView21 = dialog.findViewById(R.id.dilog_title21);
                     final TextView content21 = dialog.findViewById(R.id.ditail_content21);
                     final ImageView dilogvideo21 = dialog.findViewById(R.id.dilog_video_btn21);
-                    final ImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
+                    final GifImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
                     dilogexcersize21.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout22 = dialog.findViewById(R.id.bigreletiv22);
                     final TextView textView22 = dialog.findViewById(R.id.dilog_title22);
                     final TextView content22 = dialog.findViewById(R.id.ditail_content22);
                     final ImageView dilogvideo22 = dialog.findViewById(R.id.dilog_video_btn22);
-                    final ImageView dilogexcersize22 = dialog.findViewById(R.id.dilog_excersize_image22);
+                    final GifImageView dilogexcersize22 = dialog.findViewById(R.id.dilog_excersize_image22);
                     dilogexcersize22.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout23 = dialog.findViewById(R.id.bigreletiv23);
                     final TextView textView23 = dialog.findViewById(R.id.dilog_title23);
                     final TextView content23 = dialog.findViewById(R.id.ditail_content23);
                     final ImageView dilogvideo23 = dialog.findViewById(R.id.dilog_video_btn23);
-                    final ImageView dilogexcersize23 = dialog.findViewById(R.id.dilog_excersize_image23);
+                    final GifImageView dilogexcersize23 = dialog.findViewById(R.id.dilog_excersize_image23);
                     dilogexcersize23.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout24 = dialog.findViewById(R.id.bigreletiv24);
                     final TextView textView24 = dialog.findViewById(R.id.dilog_title24);
                     final TextView content24 = dialog.findViewById(R.id.ditail_content24);
                     final ImageView dilogvideo24 = dialog.findViewById(R.id.dilog_video_btn24);
-                    final ImageView dilogexcersize24 = dialog.findViewById(R.id.dilog_excersize_image24);
+                    final GifImageView dilogexcersize24 = dialog.findViewById(R.id.dilog_excersize_image24);
                     dilogexcersize24.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout25 = dialog.findViewById(R.id.bigreletiv25);
                     final TextView textView25 = dialog.findViewById(R.id.dilog_title25);
                     final TextView content25 = dialog.findViewById(R.id.ditail_content25);
                     final ImageView dilogvideo25 = dialog.findViewById(R.id.dilog_video_btn25);
-                    final ImageView dilogexcersize25 = dialog.findViewById(R.id.dilog_excersize_image25);
+                    final GifImageView dilogexcersize25 = dialog.findViewById(R.id.dilog_excersize_image25);
                     dilogexcersize25.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout26 = dialog.findViewById(R.id.bigreletiv26);
                     final TextView textView26 = dialog.findViewById(R.id.dilog_title26);
                     final TextView content26 = dialog.findViewById(R.id.ditail_content26);
                     final ImageView dilogvideo26 = dialog.findViewById(R.id.dilog_video_btn26);
-                    final ImageView dilogexcersize26 = dialog.findViewById(R.id.dilog_excersize_image26);
+                    final GifImageView dilogexcersize26 = dialog.findViewById(R.id.dilog_excersize_image26);
                     dilogexcersize26.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout27 = dialog.findViewById(R.id.bigreletiv27);
                     final TextView textView27 = dialog.findViewById(R.id.dilog_title27);
                     final TextView content27 = dialog.findViewById(R.id.ditail_content27);
                     final ImageView dilogvideo27 = dialog.findViewById(R.id.dilog_video_btn27);
-                    final ImageView dilogexcersize27 = dialog.findViewById(R.id.dilog_excersize_image27);
+                    final GifImageView dilogexcersize27 = dialog.findViewById(R.id.dilog_excersize_image27);
                     dilogexcersize27.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout28 = dialog.findViewById(R.id.bigreletiv28);
                     final TextView textView28 = dialog.findViewById(R.id.dilog_title28);
                     final TextView content28 = dialog.findViewById(R.id.ditail_content28);
                     final ImageView dilogvideo28 = dialog.findViewById(R.id.dilog_video_btn28);
-                    final ImageView dilogexcersize28 = dialog.findViewById(R.id.dilog_excersize_image28);
+                    final GifImageView dilogexcersize28 = dialog.findViewById(R.id.dilog_excersize_image28);
                     dilogexcersize28.getLayoutParams().height = 300;
 
 
@@ -30309,56 +30304,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -30366,56 +30361,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout12 = dialog.findViewById(R.id.bigreletiv12);
                     final TextView textView12 = dialog.findViewById(R.id.dilog_title12);
                     final TextView content12 = dialog.findViewById(R.id.ditail_content12);
                     final ImageView dilogvideo12 = dialog.findViewById(R.id.dilog_video_btn12);
-                    final ImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
+                    final GifImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
                     dilogexcersize12.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout13 = dialog.findViewById(R.id.bigreletiv13);
                     final TextView textView13 = dialog.findViewById(R.id.dilog_title13);
                     final TextView content13 = dialog.findViewById(R.id.ditail_content13);
                     final ImageView dilogvideo13 = dialog.findViewById(R.id.dilog_video_btn13);
-                    final ImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
+                    final GifImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
                     dilogexcersize13.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout14 = dialog.findViewById(R.id.bigreletiv14);
                     final TextView textView14 = dialog.findViewById(R.id.dilog_title14);
                     final TextView content14 = dialog.findViewById(R.id.ditail_content14);
                     final ImageView dilogvideo14 = dialog.findViewById(R.id.dilog_video_btn14);
-                    final ImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
+                    final GifImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
                     dilogexcersize14.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout15 = dialog.findViewById(R.id.bigreletiv15);
                     final TextView textView15 = dialog.findViewById(R.id.dilog_title15);
                     final TextView content15 = dialog.findViewById(R.id.ditail_content15);
                     final ImageView dilogvideo15 = dialog.findViewById(R.id.dilog_video_btn15);
-                    final ImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
+                    final GifImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
                     dilogexcersize15.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout16 = dialog.findViewById(R.id.bigreletiv16);
                     final TextView textView16 = dialog.findViewById(R.id.dilog_title16);
                     final TextView content16 = dialog.findViewById(R.id.ditail_content16);
                     final ImageView dilogvideo16 = dialog.findViewById(R.id.dilog_video_btn16);
-                    final ImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
+                    final GifImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
                     dilogexcersize16.getLayoutParams().height = 300;
 
 
@@ -30423,133 +30418,133 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView17 = dialog.findViewById(R.id.dilog_title17);
                     final TextView content17 = dialog.findViewById(R.id.ditail_content17);
                     final ImageView dilogvideo17 = dialog.findViewById(R.id.dilog_video_btn17);
-                    final ImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
+                    final GifImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
                     dilogexcersize17.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout18 = dialog.findViewById(R.id.bigreletiv18);
                     final TextView textView18 = dialog.findViewById(R.id.dilog_title18);
                     final TextView content18 = dialog.findViewById(R.id.ditail_content18);
                     final ImageView dilogvideo18 = dialog.findViewById(R.id.dilog_video_btn18);
-                    final ImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
+                    final GifImageView dilogexcersize18 = dialog.findViewById(R.id.dilog_excersize_image18);
                     dilogexcersize18.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout19 = dialog.findViewById(R.id.bigreletiv19);
                     final TextView textView19 = dialog.findViewById(R.id.dilog_title19);
                     final TextView content19 = dialog.findViewById(R.id.ditail_content19);
                     final ImageView dilogvideo19 = dialog.findViewById(R.id.dilog_video_btn19);
-                    final ImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
+                    final GifImageView dilogexcersize19 = dialog.findViewById(R.id.dilog_excersize_image19);
                     dilogexcersize19.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout20 = dialog.findViewById(R.id.bigreletiv20);
                     final TextView textView20 = dialog.findViewById(R.id.dilog_title20);
                     final TextView content20 = dialog.findViewById(R.id.ditail_content20);
                     final ImageView dilogvideo20 = dialog.findViewById(R.id.dilog_video_btn20);
-                    final ImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
+                    final GifImageView dilogexcersize20 = dialog.findViewById(R.id.dilog_excersize_image20);
                     dilogexcersize20.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout21 = dialog.findViewById(R.id.bigreletiv21);
                     final TextView textView21 = dialog.findViewById(R.id.dilog_title21);
                     final TextView content21 = dialog.findViewById(R.id.ditail_content21);
                     final ImageView dilogvideo21 = dialog.findViewById(R.id.dilog_video_btn21);
-                    final ImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
+                    final GifImageView dilogexcersize21 = dialog.findViewById(R.id.dilog_excersize_image21);
                     dilogexcersize21.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout22 = dialog.findViewById(R.id.bigreletiv22);
                     final TextView textView22 = dialog.findViewById(R.id.dilog_title22);
                     final TextView content22 = dialog.findViewById(R.id.ditail_content22);
                     final ImageView dilogvideo22 = dialog.findViewById(R.id.dilog_video_btn22);
-                    final ImageView dilogexcersize22 = dialog.findViewById(R.id.dilog_excersize_image22);
+                    final GifImageView dilogexcersize22 = dialog.findViewById(R.id.dilog_excersize_image22);
                     dilogexcersize22.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout23 = dialog.findViewById(R.id.bigreletiv23);
                     final TextView textView23 = dialog.findViewById(R.id.dilog_title23);
                     final TextView content23 = dialog.findViewById(R.id.ditail_content23);
                     final ImageView dilogvideo23 = dialog.findViewById(R.id.dilog_video_btn23);
-                    final ImageView dilogexcersize23 = dialog.findViewById(R.id.dilog_excersize_image23);
+                    final GifImageView dilogexcersize23 = dialog.findViewById(R.id.dilog_excersize_image23);
                     dilogexcersize23.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout24 = dialog.findViewById(R.id.bigreletiv24);
                     final TextView textView24 = dialog.findViewById(R.id.dilog_title24);
                     final TextView content24 = dialog.findViewById(R.id.ditail_content24);
                     final ImageView dilogvideo24 = dialog.findViewById(R.id.dilog_video_btn24);
-                    final ImageView dilogexcersize24 = dialog.findViewById(R.id.dilog_excersize_image24);
+                    final GifImageView dilogexcersize24 = dialog.findViewById(R.id.dilog_excersize_image24);
                     dilogexcersize24.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout25 = dialog.findViewById(R.id.bigreletiv25);
                     final TextView textView25 = dialog.findViewById(R.id.dilog_title25);
                     final TextView content25 = dialog.findViewById(R.id.ditail_content25);
                     final ImageView dilogvideo25 = dialog.findViewById(R.id.dilog_video_btn25);
-                    final ImageView dilogexcersize25 = dialog.findViewById(R.id.dilog_excersize_image25);
+                    final GifImageView dilogexcersize25 = dialog.findViewById(R.id.dilog_excersize_image25);
                     dilogexcersize25.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout26 = dialog.findViewById(R.id.bigreletiv26);
                     final TextView textView26 = dialog.findViewById(R.id.dilog_title26);
                     final TextView content26 = dialog.findViewById(R.id.ditail_content26);
                     final ImageView dilogvideo26 = dialog.findViewById(R.id.dilog_video_btn26);
-                    final ImageView dilogexcersize26 = dialog.findViewById(R.id.dilog_excersize_image26);
+                    final GifImageView dilogexcersize26 = dialog.findViewById(R.id.dilog_excersize_image26);
                     dilogexcersize26.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout27 = dialog.findViewById(R.id.bigreletiv27);
                     final TextView textView27 = dialog.findViewById(R.id.dilog_title27);
                     final TextView content27 = dialog.findViewById(R.id.ditail_content27);
                     final ImageView dilogvideo27 = dialog.findViewById(R.id.dilog_video_btn27);
-                    final ImageView dilogexcersize27 = dialog.findViewById(R.id.dilog_excersize_image27);
+                    final GifImageView dilogexcersize27 = dialog.findViewById(R.id.dilog_excersize_image27);
                     dilogexcersize27.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout28 = dialog.findViewById(R.id.bigreletiv28);
                     final TextView textView28 = dialog.findViewById(R.id.dilog_title28);
                     final TextView content28 = dialog.findViewById(R.id.ditail_content28);
                     final ImageView dilogvideo28 = dialog.findViewById(R.id.dilog_video_btn28);
-                    final ImageView dilogexcersize28 = dialog.findViewById(R.id.dilog_excersize_image28);
+                    final GifImageView dilogexcersize28 = dialog.findViewById(R.id.dilog_excersize_image28);
                     dilogexcersize28.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout29 = dialog.findViewById(R.id.bigreletiv29);
                     final TextView textView29 = dialog.findViewById(R.id.dilog_title29);
                     final TextView content29 = dialog.findViewById(R.id.ditail_content29);
                     final ImageView dilogvideo29 = dialog.findViewById(R.id.dilog_video_btn29);
-                    final ImageView dilogexcersize29 = dialog.findViewById(R.id.dilog_excersize_image29);
+                    final GifImageView dilogexcersize29 = dialog.findViewById(R.id.dilog_excersize_image29);
                     dilogexcersize29.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout30 = dialog.findViewById(R.id.bigreletiv30);
                     final TextView textView30 = dialog.findViewById(R.id.dilog_title30);
                     final TextView content30 = dialog.findViewById(R.id.ditail_content30);
                     final ImageView dilogvideo30 = dialog.findViewById(R.id.dilog_video_btn30);
-                    final ImageView dilogexcersize30 = dialog.findViewById(R.id.dilog_excersize_image30);
+                    final GifImageView dilogexcersize30 = dialog.findViewById(R.id.dilog_excersize_image30);
                     dilogexcersize30.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout31 = dialog.findViewById(R.id.bigreletiv31);
                     final TextView textView31 = dialog.findViewById(R.id.dilog_title31);
                     final TextView content31 = dialog.findViewById(R.id.ditail_content31);
                     final ImageView dilogvideo31 = dialog.findViewById(R.id.dilog_video_btn31);
-                    final ImageView dilogexcersize31 = dialog.findViewById(R.id.dilog_excersize_image31);
+                    final GifImageView dilogexcersize31 = dialog.findViewById(R.id.dilog_excersize_image31);
                     dilogexcersize31.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout32 = dialog.findViewById(R.id.bigreletiv32);
                     final TextView textView32 = dialog.findViewById(R.id.dilog_title32);
                     final TextView content32 = dialog.findViewById(R.id.ditail_content32);
                     final ImageView dilogvideo32 = dialog.findViewById(R.id.dilog_video_btn32);
-                    final ImageView dilogexcersize32 = dialog.findViewById(R.id.dilog_excersize_image32);
+                    final GifImageView dilogexcersize32 = dialog.findViewById(R.id.dilog_excersize_image32);
                     dilogexcersize32.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout33 = dialog.findViewById(R.id.bigreletiv33);
                     final TextView textView33 = dialog.findViewById(R.id.dilog_title33);
                     final TextView content33 = dialog.findViewById(R.id.ditail_content33);
                     final ImageView dilogvideo33 = dialog.findViewById(R.id.dilog_video_btn33);
-                    final ImageView dilogexcersize33 = dialog.findViewById(R.id.dilog_excersize_image33);
+                    final GifImageView dilogexcersize33 = dialog.findViewById(R.id.dilog_excersize_image33);
                     dilogexcersize33.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout34 = dialog.findViewById(R.id.bigreletiv34);
                     final TextView textView34 = dialog.findViewById(R.id.dilog_title34);
                     final TextView content34 = dialog.findViewById(R.id.ditail_content34);
                     final ImageView dilogvideo34 = dialog.findViewById(R.id.dilog_video_btn34);
-                    final ImageView dilogexcersize34 = dialog.findViewById(R.id.dilog_excersize_image34);
+                    final GifImageView dilogexcersize34 = dialog.findViewById(R.id.dilog_excersize_image34);
                     dilogexcersize34.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout35 = dialog.findViewById(R.id.bigreletiv35);
                     final TextView textView35 = dialog.findViewById(R.id.dilog_title35);
                     final TextView content35 = dialog.findViewById(R.id.ditail_content35);
                     final ImageView dilogvideo35 = dialog.findViewById(R.id.dilog_video_btn35);
-                    final ImageView dilogexcersize35 = dialog.findViewById(R.id.dilog_excersize_image35);
+                    final GifImageView dilogexcersize35 = dialog.findViewById(R.id.dilog_excersize_image35);
                     dilogexcersize35.getLayoutParams().height = 300;
 
 
@@ -30557,56 +30552,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView36 = dialog.findViewById(R.id.dilog_title36);
                     final TextView content36 = dialog.findViewById(R.id.ditail_content36);
                     final ImageView dilogvideo36 = dialog.findViewById(R.id.dilog_video_btn36);
-                    final ImageView dilogexcersize36 = dialog.findViewById(R.id.dilog_excersize_image36);
+                    final GifImageView dilogexcersize36 = dialog.findViewById(R.id.dilog_excersize_image36);
                     dilogexcersize36.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout37 = dialog.findViewById(R.id.bigreletiv37);
                     final TextView textView37 = dialog.findViewById(R.id.dilog_title37);
                     final TextView content37 = dialog.findViewById(R.id.ditail_content37);
                     final ImageView dilogvideo37 = dialog.findViewById(R.id.dilog_video_btn37);
-                    final ImageView dilogexcersize37 = dialog.findViewById(R.id.dilog_excersize_image37);
+                    final GifImageView dilogexcersize37 = dialog.findViewById(R.id.dilog_excersize_image37);
                     dilogexcersize37.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout38 = dialog.findViewById(R.id.bigreletiv38);
                     final TextView textView38 = dialog.findViewById(R.id.dilog_title38);
                     final TextView content38 = dialog.findViewById(R.id.ditail_content38);
                     final ImageView dilogvideo38 = dialog.findViewById(R.id.dilog_video_btn38);
-                    final ImageView dilogexcersize38 = dialog.findViewById(R.id.dilog_excersize_image38);
+                    final GifImageView dilogexcersize38 = dialog.findViewById(R.id.dilog_excersize_image38);
                     dilogexcersize38.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout39 = dialog.findViewById(R.id.bigreletiv39);
                     final TextView textView39 = dialog.findViewById(R.id.dilog_title39);
                     final TextView content39 = dialog.findViewById(R.id.ditail_content39);
                     final ImageView dilogvideo39 = dialog.findViewById(R.id.dilog_video_btn39);
-                    final ImageView dilogexcersize39 = dialog.findViewById(R.id.dilog_excersize_image39);
+                    final GifImageView dilogexcersize39 = dialog.findViewById(R.id.dilog_excersize_image39);
                     dilogexcersize39.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout40 = dialog.findViewById(R.id.bigreletiv40);
                     final TextView textView40 = dialog.findViewById(R.id.dilog_title40);
                     final TextView content40 = dialog.findViewById(R.id.ditail_content40);
                     final ImageView dilogvideo40 = dialog.findViewById(R.id.dilog_video_btn40);
-                    final ImageView dilogexcersize40 = dialog.findViewById(R.id.dilog_excersize_image40);
+                    final GifImageView dilogexcersize40 = dialog.findViewById(R.id.dilog_excersize_image40);
                     dilogexcersize40.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout41 = dialog.findViewById(R.id.bigreletiv41);
                     final TextView textView41 = dialog.findViewById(R.id.dilog_title41);
                     final TextView content41 = dialog.findViewById(R.id.ditail_content41);
                     final ImageView dilogvideo41 = dialog.findViewById(R.id.dilog_video_btn41);
-                    final ImageView dilogexcersize41 = dialog.findViewById(R.id.dilog_excersize_image41);
+                    final GifImageView dilogexcersize41 = dialog.findViewById(R.id.dilog_excersize_image41);
                     dilogexcersize41.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout42 = dialog.findViewById(R.id.bigreletiv42);
                     final TextView textView42 = dialog.findViewById(R.id.dilog_title42);
                     final TextView content42 = dialog.findViewById(R.id.ditail_content42);
                     final ImageView dilogvideo42 = dialog.findViewById(R.id.dilog_video_btn42);
-                    final ImageView dilogexcersize42 = dialog.findViewById(R.id.dilog_excersize_image42);
+                    final GifImageView dilogexcersize42 = dialog.findViewById(R.id.dilog_excersize_image42);
                     dilogexcersize42.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout43 = dialog.findViewById(R.id.bigreletiv43);
                     final TextView textView43 = dialog.findViewById(R.id.dilog_title43);
                     final TextView content43 = dialog.findViewById(R.id.ditail_content43);
                     final ImageView dilogvideo43 = dialog.findViewById(R.id.dilog_video_btn43);
-                    final ImageView dilogexcersize43 = dialog.findViewById(R.id.dilog_excersize_image43);
+                    final GifImageView dilogexcersize43 = dialog.findViewById(R.id.dilog_excersize_image43);
                     dilogexcersize43.getLayoutParams().height = 300;
 
                     if (count[0]==1){
@@ -37990,56 +37985,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView = dialog.findViewById(R.id.dilog_title);
                     final TextView content = dialog.findViewById(R.id.ditail_content);
                     final ImageView dilogvideo = dialog.findViewById(R.id.dilog_video_btn);
-                    final ImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
+                    final GifImageView dilogexcersize = dialog.findViewById(R.id.dilog_excersize_image);
                     dilogexcersize.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout1 = dialog.findViewById(R.id.bigreletiv2);
                     final TextView textView1 = dialog.findViewById(R.id.dilog_title2);
                     final TextView content1 = dialog.findViewById(R.id.ditail_content2);
                     final ImageView dilogvideo2 = dialog.findViewById(R.id.dilog_video_btn2);
-                    final ImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
+                    final GifImageView dilogexcersize2 = dialog.findViewById(R.id.dilog_excersize_image2);
                     dilogexcersize2.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout2 = dialog.findViewById(R.id.bigreletiv3);
                     final TextView textView2 = dialog.findViewById(R.id.dilog_title3);
                     final TextView content2 = dialog.findViewById(R.id.ditail_content3);
                     final ImageView dilogvideo3 = dialog.findViewById(R.id.dilog_video_btn3);
-                    final ImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
+                    final GifImageView dilogexcersize3 = dialog.findViewById(R.id.dilog_excersize_image3);
                     dilogexcersize3.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout3 = dialog.findViewById(R.id.bigreletiv4);
                     final TextView textView3 = dialog.findViewById(R.id.dilog_title4);
                     final TextView content3 = dialog.findViewById(R.id.ditail_content4);
                     final ImageView dilogvideo4 = dialog.findViewById(R.id.dilog_video_btn4);
-                    final ImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
+                    final GifImageView dilogexcersize4 = dialog.findViewById(R.id.dilog_excersize_image4);
                     dilogexcersize4.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout4 = dialog.findViewById(R.id.bigreletiv5);
                     final TextView textView4 = dialog.findViewById(R.id.dilog_title5);
                     final TextView content4 = dialog.findViewById(R.id.ditail_content5);
                     final ImageView dilogvideo5 = dialog.findViewById(R.id.dilog_video_btn5);
-                    final ImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
+                    final GifImageView dilogexcersize5 = dialog.findViewById(R.id.dilog_excersize_image5);
                     dilogexcersize5.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout5 = dialog.findViewById(R.id.bigreletiv6);
                     final TextView textView5 = dialog.findViewById(R.id.dilog_title6);
                     final TextView content5 = dialog.findViewById(R.id.ditail_content6);
                     final ImageView dilogvideo6 = dialog.findViewById(R.id.dilog_video_btn6);
-                    final ImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
+                    final GifImageView dilogexcersize6 = dialog.findViewById(R.id.dilog_excersize_image6);
                     dilogexcersize6.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout7 = dialog.findViewById(R.id.bigreletiv7);
                     final TextView textView7 = dialog.findViewById(R.id.dilog_title7);
                     final TextView content7 = dialog.findViewById(R.id.ditail_content7);
                     final ImageView dilogvideo7 = dialog.findViewById(R.id.dilog_video_btn7);
-                    final ImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
+                    final GifImageView dilogexcersize7 = dialog.findViewById(R.id.dilog_excersize_image7);
                     dilogexcersize7.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout8 = dialog.findViewById(R.id.bigreletiv8);
                     final TextView textView8 = dialog.findViewById(R.id.dilog_title8);
                     final TextView content8 = dialog.findViewById(R.id.ditail_content8);
                     final ImageView dilogvideo8 = dialog.findViewById(R.id.dilog_video_btn8);
-                    final ImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
+                    final GifImageView dilogexcersize8 = dialog.findViewById(R.id.dilog_excersize_image8);
                     dilogexcersize8.getLayoutParams().height = 300;
 
 
@@ -38047,56 +38042,56 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView9 = dialog.findViewById(R.id.dilog_title9);
                     final TextView content9 = dialog.findViewById(R.id.ditail_content9);
                     final ImageView dilogvideo9 = dialog.findViewById(R.id.dilog_video_btn9);
-                    final ImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
+                    final GifImageView dilogexcersize9 = dialog.findViewById(R.id.dilog_excersize_image9);
                     dilogexcersize9.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout10 = dialog.findViewById(R.id.bigreletiv10);
                     final TextView textView10 = dialog.findViewById(R.id.dilog_title10);
                     final TextView content10 = dialog.findViewById(R.id.ditail_content10);
                     final ImageView dilogvideo10 = dialog.findViewById(R.id.dilog_video_btn10);
-                    final ImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
+                    final GifImageView dilogexcersize10 = dialog.findViewById(R.id.dilog_excersize_image10);
                     dilogexcersize10.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout11 = dialog.findViewById(R.id.bigreletiv11);
                     final TextView textView11 = dialog.findViewById(R.id.dilog_title11);
                     final TextView content11 = dialog.findViewById(R.id.ditail_content11);
                     final ImageView dilogvideo11 = dialog.findViewById(R.id.dilog_video_btn11);
-                    final ImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
+                    final GifImageView dilogexcersize11 = dialog.findViewById(R.id.dilog_excersize_image11);
                     dilogexcersize11.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout12 = dialog.findViewById(R.id.bigreletiv12);
                     final TextView textView12 = dialog.findViewById(R.id.dilog_title12);
                     final TextView content12 = dialog.findViewById(R.id.ditail_content12);
                     final ImageView dilogvideo12 = dialog.findViewById(R.id.dilog_video_btn12);
-                    final ImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
+                    final GifImageView dilogexcersize12 = dialog.findViewById(R.id.dilog_excersize_image12);
                     dilogexcersize12.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout13 = dialog.findViewById(R.id.bigreletiv13);
                     final TextView textView13 = dialog.findViewById(R.id.dilog_title13);
                     final TextView content13 = dialog.findViewById(R.id.ditail_content13);
                     final ImageView dilogvideo13 = dialog.findViewById(R.id.dilog_video_btn13);
-                    final ImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
+                    final GifImageView dilogexcersize13 = dialog.findViewById(R.id.dilog_excersize_image13);
                     dilogexcersize13.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout14 = dialog.findViewById(R.id.bigreletiv14);
                     final TextView textView14 = dialog.findViewById(R.id.dilog_title14);
                     final TextView content14 = dialog.findViewById(R.id.ditail_content14);
                     final ImageView dilogvideo14 = dialog.findViewById(R.id.dilog_video_btn14);
-                    final ImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
+                    final GifImageView dilogexcersize14 = dialog.findViewById(R.id.dilog_excersize_image14);
                     dilogexcersize14.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout15 = dialog.findViewById(R.id.bigreletiv15);
                     final TextView textView15 = dialog.findViewById(R.id.dilog_title15);
                     final TextView content15 = dialog.findViewById(R.id.ditail_content15);
                     final ImageView dilogvideo15 = dialog.findViewById(R.id.dilog_video_btn15);
-                    final ImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
+                    final GifImageView dilogexcersize15 = dialog.findViewById(R.id.dilog_excersize_image15);
                     dilogexcersize15.getLayoutParams().height = 300;
 
                     final RelativeLayout relativeLayout16 = dialog.findViewById(R.id.bigreletiv16);
                     final TextView textView16 = dialog.findViewById(R.id.dilog_title16);
                     final TextView content16 = dialog.findViewById(R.id.ditail_content16);
                     final ImageView dilogvideo16 = dialog.findViewById(R.id.dilog_video_btn16);
-                    final ImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
+                    final GifImageView dilogexcersize16 = dialog.findViewById(R.id.dilog_excersize_image16);
                     dilogexcersize16.getLayoutParams().height = 300;
 
 
@@ -38104,7 +38099,7 @@ public class DitalsActivity extends AppCompatActivity {
                     final TextView textView17 = dialog.findViewById(R.id.dilog_title17);
                     final TextView content17 = dialog.findViewById(R.id.ditail_content17);
                     final ImageView dilogvideo17 = dialog.findViewById(R.id.dilog_video_btn17);
-                    final ImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
+                    final GifImageView dilogexcersize17 = dialog.findViewById(R.id.dilog_excersize_image17);
                     dilogexcersize17.getLayoutParams().height = 300;
 
 

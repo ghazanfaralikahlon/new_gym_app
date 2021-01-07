@@ -13,6 +13,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.gym_application.Models.MyListDataDitails;
 import com.example.gym_application.R;
 
+import pl.droidsonroids.gif.GifImageView;
+
 
 public class MyListAdapterDitails extends RecyclerView.Adapter<MyListAdapterDitails.ViewHolder>{
 
@@ -65,13 +67,14 @@ public class MyListAdapterDitails extends RecyclerView.Adapter<MyListAdapterDita
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public ImageView imageView1,imageView2;
+        public ImageView imageView1;
+        GifImageView imageView2;
         public TextView textView1,textView2;
         public RelativeLayout relativeLayout;
         public ViewHolder(View itemView) {
             super(itemView);
             this.imageView1 = (ImageView) itemView.findViewById(R.id.eaual_sign);
-            this.imageView2 = (ImageView) itemView.findViewById(R.id.animate_image);
+            this.imageView2 = (GifImageView) itemView.findViewById(R.id.animate_image);
             this.textView1 = (TextView) itemView.findViewById(R.id.text_ditals_list);
             this.textView2 = (TextView) itemView.findViewById(R.id.pixle_number);
             relativeLayout = (RelativeLayout)itemView.findViewById(R.id.relativeLayout1);
