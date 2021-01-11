@@ -28,21 +28,21 @@ public class HomeFragment extends Fragment {
 
 
         MyListData[] myListData = new MyListData[] {
-                new MyListData("ABS BEGINNER", R.drawable.gym_header_image3),
-                new MyListData("CHEST BEGINNER", R.drawable.gym_header_image2),
-                new MyListData("ARM BEGINNER", R.drawable.gym_header_image3),
-                new MyListData("LEG BEGINNER", R.drawable.gym_header_image2),
-                new MyListData("SHOULDER BEGINNER", R.drawable.gym_header_image3),
-                new MyListData("ABS INTERMEDIATE", R.drawable.gym_header_image2),
-                new MyListData("CHEST INTERMEDIATE", R.drawable.gym_header_image2),
-                new MyListData("ARM INTERMEDIATE", R.drawable.gym_header_image2),
-                new MyListData("LEG INTERMEDIATE", R.drawable.gym_header_image2),
-                new MyListData("SHOULDER INTERMEDIATE", R.drawable.gym_header_image2),
-                new MyListData("ABS ADVANCED", R.drawable.gym_header_image2),
-                new MyListData("CHEST ADVANCED", R.drawable.gym_header_image2),
-                new MyListData("ARM ADVANCED", R.drawable.gym_header_image2),
-                new MyListData("LEG ADVANCED", R.drawable.gym_header_image2),
-                new MyListData("SHOULDER ADVANCED", R.drawable.gym_header_image2),
+                new MyListData("ABS BEGINNER", R.drawable.abs_beginner),
+                new MyListData("CHEST BEGINNER", R.drawable.chest_beginner),
+                new MyListData("ARM BEGINNER", R.drawable.arm_beginner),
+                new MyListData("LEG BEGINNER", R.drawable.leg_beginer),
+                new MyListData("SHOULDER BEGINNER", R.drawable.shoulder_beginner),
+                new MyListData("ABS INTERMEDIATE", R.drawable.abs_intermediate),
+                new MyListData("CHEST INTERMEDIATE", R.drawable.chest_intermediate),
+                new MyListData("ARM INTERMEDIATE", R.drawable.arm_intermediate),
+                new MyListData("LEG INTERMEDIATE", R.drawable.leg_intermediate),
+                new MyListData("SHOULDER INTERMEDIATE", R.drawable.shoulder_intermediate),
+                new MyListData("ABS ADVANCED", R.drawable.abs_advancd),
+                new MyListData("CHEST ADVANCED", R.drawable.chest_advanced),
+                new MyListData("ARM ADVANCED", R.drawable.arm_advaned),
+                new MyListData("LEG ADVANCED", R.drawable.leg_advanced),
+                new MyListData("SHOULDER ADVANCED", R.drawable.shoulder_advanced),
         };
 
         RecyclerView recyclerView = (RecyclerView) root.findViewById(R.id.recyclerView);

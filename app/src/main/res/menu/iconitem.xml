@@ -26,4 +26,9 @@
         android:icon="@drawable/ic_policy"
         android:id="@+id/policy_item"/>
 
+    <item
+        android:title="About Us"
+        android:icon="@drawable/about_us"
+        android:id="@+id/about_item"/>
+
 </menu>

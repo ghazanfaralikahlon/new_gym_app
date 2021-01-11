@@ -5,7 +5,7 @@
     <string name="close">close</string>
 
     <string name="no">No</string>
-    <string name="yes">yes</string>
+    <string name="yes">Yes</string>
 
     <string-array name="nav_item_activity_titles">
         <item>Home</item>

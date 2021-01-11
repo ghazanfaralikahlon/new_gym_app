@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 navItemIndex = 0;
 //                CURRENT_TAG = TAG_HOME;
                 Status = true;
-                Toast.makeText(this, "Home Fragment", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this, "Home Fragment", Toast.LENGTH_SHORT).show();
                 getSupportFragmentManager().beginTransaction().replace(R.id.frame,
 
                         new HomeFragment()).commit();
@@ -142,6 +142,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Status  = false;
 //                Toast.makeText(this, "Edit Profile Fragment", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://policymaker.io/privacy-policy/?gclid=Cj0KCQiAqdP9BRDVARIsAGSZ8AnpTBoierh3YC5-svXRRj8bI7dJkpe9hl0yK7fujBdx_D6yo5IghvUaAvdmEALw_wcB")));
+                break;
+
+            case R.id.about_item:                                                             // edit profile fragment transection function
+//                navItemIndex = 1;
+//                CURRENT_TAG = TAG_EDIT_PROFILE;
+                Status  = false;
+//                Toast.makeText(this, "Edit Profile Fragment", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this,Aboutus_Activity.class);
+                startActivity(intent);
                 break;
 
 
@@ -205,16 +214,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
             else                                                                                        // this function work a when click back so apply a dilog
             {
-                new AlertDialog.Builder(this)
-                        .setTitle("Reallly Exists?")
-                        .setMessage("Are you sure you want to exit?")
-                        .setNegativeButton(R.string.no, null)
-                        .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
-
-                            public void onClick(DialogInterface arg0, int arg1) {
+//                new AlertDialog.Builder(this)
+//                        .setTitle("Reallly Exists?")
+//                        .setMessage("Are you sure you want to exit?")
+//                        .setNegativeButton(R.string.no, null)
+//                        .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+//
+//                            public void onClick(DialogInterface arg0, int arg1) {
                                 MainActivity.super.onBackPressed();
-                            }
-                        }).create().show();
+//                            }
+//                        }).create().show();
             }
         }
     }
